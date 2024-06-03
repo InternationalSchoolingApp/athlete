@@ -3,16 +3,21 @@ import React, { useState } from "react";
 import ImagePath from "constant/ImagePath";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const MenuItems = [
+  {
+    name: "Home",
+    link: "/",
+  },
   {
     name: "About",
     link: "/about",
   },
-  {
-    name: "Program",
-    link: "/program",
-  },
+  // {
+  //   name: "Program",
+  //   link: "/program",
+  // },
   {
     name: "Contact",
     link: "/contact",
@@ -20,6 +25,7 @@ const MenuItems = [
 ];
 
 const Navbar = () => {
+  const router = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   const ToggleMenu = () => {
@@ -43,7 +49,9 @@ const Navbar = () => {
             <ul className="flex gap-10 ">
               {MenuItems.map((item, index) => (
                 <li
-                  className="font-semibold hover:text-[#007EFF] duration-150"
+                  className={`font-semibold hover:text-[#007EFF] duration-150 ${
+                    router === item.link ? "text-[#007EFF]" : ""
+                  }`}
                   key={index}
                 >
                   <Link href={item.link}>{item.name}</Link>
@@ -53,6 +61,7 @@ const Navbar = () => {
             <div className="">
               <Link
                 href={"https://internationalschooling.org/enrollment/"}
+                target="_blank"
                 className="rounded-full border-2 py-2 px-3 font-semibold ml-8 hover:border-[#007EFF] duration-150 hover:text-[#007EFF]"
               >
                 Enrollment
@@ -64,6 +73,7 @@ const Navbar = () => {
 
           <Link
             href={"https://internationalschooling.org/enrollment/"}
+            target="_blank"
             className="rounded-lg border-2 py-2 px-3 text-sm font-semibold text-white border-[#007EFF] bg-[#007EFF] duration-150 hover:bg-blue-700 hover:border-blue-700 lg:hidden"
           >
             Enrollment
@@ -101,7 +111,9 @@ const Navbar = () => {
                 <ul className="flex flex-col gap-4">
                   {MenuItems.map((item, index) => (
                     <li
-                      className="font-semibold hover:text-[#007EFF] duration-150"
+                      className={`font-semibold hover:text-[#007EFF] duration-150 ${
+                        router === item.link ? "text-[#007EFF]" : ""
+                      }`}
                       key={index}
                     >
                       <Link href={item.link}>{item.name}</Link>

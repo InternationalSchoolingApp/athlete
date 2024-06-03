@@ -75,6 +75,7 @@ const SportsStars = () => {
         <Button
           message={"BOOK A FREE LIVE SCHOOL DEMO"}
           url={"https://enroll.internationalschooling.org/demo/"}
+          target={"_blank"}
           buttonClass={"w-full lg:w-1/2"}
         />
       </div>

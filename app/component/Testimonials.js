@@ -27,11 +27,11 @@ const TestimonialsContent = [
 const Testimonials = () => {
   return (
     <>
-      <div className="bg-[#C5E2FF] rounded-3xl p-10 mt-10">
+      <div className="bg-[#C5E2FF] rounded-3xl lg:p-10 p-5 mt-10">
         <h3 className="font-extrabold text-xl lg:text-4xl text-center">
           HEAR FROM OUR HAPPY PARENTS
         </h3>
-        <div className="flex justify-center items-center gap-10 my-5">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-10 gap-4 my-5">
           <Image
             width={250}
             height={200}

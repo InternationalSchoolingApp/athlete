@@ -55,14 +55,14 @@ const WhyChooseUs = () => {
           </div>
         </div>
 
-        <div className="bg-[#272D3D] p-3 rounded-2xl">
+        <div className="bg-[#272D3D] rounded-2xl lg:p-5 p-2">
           <div className="text-white text-center mb-5">
             <p className="text-lg lg:text-2xl font-bold">FILL OUT THE FORM</p>
             <p className="text-base lg:text-lg font-medium">
               TO ENGAGE WITH OUR ACADEMIC EXPERT
             </p>
           </div>
-          <PPCForm />
+          <PPCForm folderName={"athelete"} />
         </div>
       </div>
     </>

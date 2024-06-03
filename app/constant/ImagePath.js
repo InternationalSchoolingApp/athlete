@@ -1,5 +1,6 @@
 const ImagePath = {
   LOGO: "/IS-logo.webp",
+  LOGO_WHITE: "/IS-Logo-White.webp",
   HERO_IMG: "/hero-image.webp",
   COGNIA_LOGO: "/cognia.logo.webp",
   COLLEGEBOARD_LOGO: "/college-board-logo.webp",
@@ -17,7 +18,7 @@ const ImagePath = {
   TESTIMONIALS_1: "/testimonial-1.webp",
   TESTIMONIALS_2: "/testimonial-2.webp",
   TESTIMONIALS_3: "/testimonial-3.webp",
-  ABOUT_IMG: "/Group 1261153554.png",
+  ABOUT_IMG: "/atheletes-cover.webp",
   VISOIN_ICON: "/vision_icon.svg",
   MISSION_ICON: "/mission_icon.svg",
   PHILOSOPHY_ICON: "/philosophy_icon.svg",

@@ -339,7 +339,7 @@ const PPCForm = ({ folderName }) => {
           <div>
             <label
               htmlFor="phoneCode"
-              className="block mb-1 text-sm font-medium text-gray-900 "
+              className="block mb-1 mt-1 lg:mt-0 text-xs lg:text-sm font-medium text-gray-900"
             >
               Phone Code <sup>*</sup>
             </label>
