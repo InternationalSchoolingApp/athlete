@@ -101,6 +101,7 @@ function About() {
             src={ImagePath.WHY_US_IMG}
             width={400}
             height={400}
+            priority
             className="h-auto rounded-xl"
             alt="image"
           />

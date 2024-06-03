@@ -34,6 +34,7 @@ const VideoElement = ({ image, url, playButton }) => {
             <Image
               width={1000}
               height={1000}
+              priority
               alt={image}
               src={image}
               className="rounded-2xl border-2 w-max"

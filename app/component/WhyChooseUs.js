@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
                   alt={item.alt}
                   className={`mb-1 ${item.width}`}
                 />
-                <h5 className="font-bold mb-1">{item.heading}</h5>
+                <p className="font-bold mb-1 text-lg">{item.heading}</p>
                 <p className="font-medium">{item.para}</p>
               </div>
             ))}

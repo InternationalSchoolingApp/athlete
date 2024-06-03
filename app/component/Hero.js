@@ -35,7 +35,9 @@ const Hero = () => {
               with us from K-12 and have found the perfect balance between
               <br />
               <br />
-              GOOD ACADEMIC PERFORMANCE & INTENSE SPORTS TRAINING
+              <span className="font-semibold">
+                GOOD ACADEMIC PERFORMANCE & INTENSE SPORTS TRAINING
+              </span>
             </p>
           </div>
 
@@ -50,9 +52,10 @@ const Hero = () => {
           <Image
             width={500}
             height={500}
+            priority
             src={ImagePath.HERO_IMG}
             alt="hero-image"
-            className="lg:w-full mx-auto lg:mx-0"
+            className="lg:w-full mx-auto lg:mx-0 h-auto"
           />
         </div>
       </div>

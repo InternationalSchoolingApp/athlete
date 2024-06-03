@@ -10,6 +10,7 @@ const Accreditation = () => {
           width={500}
           height={500}
           src={ImagePath.COGNIA_LOGO}
+          priority
           alt="cognia-logo"
           className="w-1/2 lg:w-1/5"
         />
@@ -17,6 +18,7 @@ const Accreditation = () => {
           width={500}
           height={500}
           src={ImagePath.COLLEGEBOARD_LOGO}
+          priority
           alt="cognia-logo"
           className="w-1/2 lg:w-1/5"
         />
@@ -24,6 +26,7 @@ const Accreditation = () => {
           width={500}
           height={500}
           src={ImagePath.NCAA_LOGO}
+          priority
           alt="cognia-logo"
           className="w-1/2 lg:w-1/5"
         />
