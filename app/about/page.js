@@ -50,8 +50,8 @@ function About() {
           />
         </div>
       </div>
-      <div className="gap-10 r-w grid grid-cols-1 lg:grid-cols-3 rounded-2xl bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] py-12 px-12">
-        <div className="w-full border-t border-l border-white/70 rounded-3xl py-12 px-12 ">
+      <div className="gap-10 r-w flex flex-col lg:flex-row justify-center items-stretch rounded-2xl bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] p-10">
+        <div className="w-full border-t border-l border-white/70 rounded-3xl p-10">
           <Image
             src={ImagePath.VISOIN_ICON}
             width={50}
@@ -65,7 +65,7 @@ function About() {
             quality schooling.
           </p>
         </div>
-        <div className="w-full border-r border-b border-white/70 rounded-3xl py-12 px-12">
+        <div className="w-full border-r border-b border-white/70 rounded-3xl p-10">
           <Image
             src={ImagePath.MISSION_ICON}
             width={50}
@@ -79,7 +79,7 @@ function About() {
             schooling.
           </p>
         </div>
-        <div className="w-full border-t border-r border-white/70 rounded-3xl py-12 px-12">
+        <div className="w-full border-t border-r border-white/70 rounded-3xl p-10">
           <Image
             src={ImagePath.PHILOSOPHY_ICON}
             width={50}

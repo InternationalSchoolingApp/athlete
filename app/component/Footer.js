@@ -35,6 +35,15 @@ const Footer = () => {
                   Talk To Us
                 </Link>
               </li>
+              <li>
+                <Link
+                  href={"https://internationalschooling.org/enrollment/"}
+                  target="_blank"
+                  className="hover:underline"
+                >
+                  Enroll Now
+                </Link>
+              </li>
             </ul>
           </div>
 
