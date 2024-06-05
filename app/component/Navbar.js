@@ -33,8 +33,8 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="w-full bg-white/95 sticky top-0 shadow-sm z-[9999]">
-        <div className="r-w flex justify-between items-center py-5 gap-2">
+      <div className="w-full bg-white/50 sticky top-0 shadow-sm z-[9999]">
+        <div className="r-w flex justify-between items-center py-5 gap-2 backdrop-blur">
           <Link className="w-full md:w-1/2 lg:w-1/3" href={"/"}>
             <Image
               width={500}
@@ -80,6 +80,7 @@ const Navbar = () => {
           </Link>
           <label className="swap swap-rotate btn btn-square p-2 lg:hidden ">
             <input
+              className=""
               onClick={() => {
                 ToggleMenu();
               }}
