@@ -37,8 +37,8 @@ const Navbar = () => {
         <div className="r-w flex justify-between items-center lg:py-5 py-3 gap-2 backdrop-blur">
           <Link className="w-full md:w-1/2 lg:w-1/3" href={"/"}>
             <Image
-              width={500}
-              height={500}
+              width={380}
+              height={40}
               src={ImagePath.LOGO}
               alt="logo"
               className="h-auto"
