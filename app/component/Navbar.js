@@ -34,14 +34,14 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full bg-white/50 sticky top-0 shadow-sm z-[9999]">
-        <div className="r-w flex justify-between items-center py-5 gap-2 backdrop-blur">
+        <div className="r-w flex justify-between items-center lg:py-5 py-3 gap-2 backdrop-blur">
           <Link className="w-full md:w-1/2 lg:w-1/3" href={"/"}>
             <Image
               width={500}
               height={500}
               src={ImagePath.LOGO}
               alt="logo"
-              className=""
+              className="h-auto"
               priority
             />
           </Link>
@@ -71,59 +71,60 @@ const Navbar = () => {
 
           {/* Small Screens  */}
 
-          <Link
-            href={"https://internationalschooling.org/enrollment/"}
-            target="_blank"
-            className="rounded-lg border-2 py-2 px-3 text-sm font-semibold text-white border-[#007EFF] bg-[#007EFF] duration-150 hover:bg-blue-700 hover:border-blue-700 lg:hidden"
-          >
-            Enrollment
-          </Link>
-          <label className="swap swap-rotate btn btn-square p-2 lg:hidden ">
-            <input
-              className=""
-              onClick={() => {
-                ToggleMenu();
-              }}
-              type="checkbox"
-            />
-            <svg
-              className="swap-off fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              width="26"
-              height="26"
-              viewBox="0 0 512 512"
+          <div className="flex justify-between items-center gap-3 lg:hidden">
+            <Link
+              href={"https://internationalschooling.org/enrollment/"}
+              target="_blank"
+              className="rounded-lg border-2 py-2 px-3 text-sm font-semibold text-white border-[#007EFF] bg-[#007EFF] duration-150 hover:bg-blue-700 hover:border-blue-700 lg:hidden"
             >
-              <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-            </svg>
-            <svg
-              className="swap-on fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              width="26"
-              height="26"
-              viewBox="0 0 512 512"
-            >
-              <polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
-            </svg>
-          </label>
-
-          <div className="lg:hidden flex absolute bg-white w-full top-20 shadow-sm p-1 left-0">
-            {isOpen && (
-              <div className="flex flex-col py-5 px-3">
-                <ul className="flex flex-col gap-4">
-                  {MenuItems.map((item, index) => (
-                    <li
-                      className={`font-semibold hover:text-[#007EFF] duration-150 ${
-                        router === item.link ? "text-[#007EFF]" : ""
-                      }`}
-                      key={index}
-                    >
-                      <Link href={item.link}>{item.name}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
+              Enrollment
+            </Link>
+            <label className="swap swap-rotate btn btn-square p-2 lg:hidden ">
+              <input
+                className=""
+                onClick={() => {
+                  ToggleMenu();
+                }}
+                type="checkbox"
+              />
+              <svg
+                className="swap-off fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 512 512"
+              >
+                <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+              </svg>
+              <svg
+                className="swap-on fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 512 512"
+              >
+                <polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+              </svg>
+            </label>
           </div>
+        </div>
+        <div className="lg:hidden flex absolute bg-white !w-full top-[4.5rem] shadow-md left-0">
+          {isOpen && (
+            <div className="flex flex-col py-5 px-3">
+              <ul className="flex flex-col gap-4">
+                {MenuItems.map((item, index) => (
+                  <li
+                    className={`font-semibold hover:text-[#007EFF] duration-150 ${
+                      router === item.link ? "text-[#007EFF]" : ""
+                    }`}
+                    key={index}
+                  >
+                    <Link href={item.link}>{item.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </div>
     </>
