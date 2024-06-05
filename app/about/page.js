@@ -4,6 +4,14 @@ import Image from "next/image";
 import VideoElement from "component/VideoElement";
 import Button from "component/Button";
 
+export const metadata = {
+  title: "About Us | International Schooling - Be the Best!",
+  description:
+    "Learn more about International Schooling's Student Athletes Program, connecting students globally for academic and athletic excellence.",
+  robots: "index,follow",
+  referrer: "no-referrer-when-downgrade",
+};
+
 function About() {
   return (
     <>
@@ -27,13 +35,16 @@ function About() {
             About Us
           </h1>
           <p className="text-gray-800 lg:text-justify text-sm mb-5">
-            Lorem ipsum dolor sit amet consectetur. Sagittis cursus a iaculis eu
-            non. Tincidunt vitae neque interdum ultricies. Accumsan purus erat
-            tristique adipiscing. Id scelerisque etiam commodo fringilla
-            sollicitudin cum velit. Enim id mi mattis pharetra enim mollis
-            suspendisse donec elementum. Sed commodo nulla sem nisl odio.
-            Egestas at lobortis ultrices mi dui. Morbi nunc morbi at justo sed
-            eget. Metus in elit iaculis adipiscing suspendisse.
+            International Schooling, a Cognia-accredited K-12 Online School,
+            connects students across 135+ countries, enabling them to pursue
+            their career dreams without compromising on education. With a
+            diverse community comprising 72% district, 16% national, and 9%
+            international level athletes, we prioritize both academic and
+            athletic excellence. Our comprehensive support includes free
+            counseling in sports psychology and injury management,
+            concept-building sessions, and personalized doubt resolution. With
+            99% of students spending less than 2 hours daily, we empower them to
+            excel in both their studies and sports endeavors.
           </p>
           <Button
             message={"Let's Connect"}

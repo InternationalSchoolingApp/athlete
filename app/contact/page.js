@@ -3,6 +3,14 @@ import React from "react";
 import Image from "next/image";
 import PPCForm from "component/PPCForm";
 
+export const metadata = {
+  title: "Contact Us | International Schooling - Student Athletes Program",
+  description:
+    "Contact International Schooling for inquiries, support, or to learn more about our Student Athletes Program. Reach out to us today and take the first step towards academic and athletic excellence.",
+  robots: "index,follow",
+  referrer: "no-referrer-when-downgrade",
+};
+
 const contact = () => {
   return (
     <div className="r-w flex flex-col lg:flex-row justify-center items-center pt-10 gap-10 !mb-12">
