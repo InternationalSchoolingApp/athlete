@@ -35,16 +35,20 @@ function About() {
             About Us
           </h1>
           <p className="text-gray-800 lg:text-justify text-sm mb-5">
-            International Schooling, a Cognia-accredited K-12 Online School,
-            connects students across 135+ countries, enabling them to pursue
-            their career dreams without compromising on education. With a
-            diverse community comprising 72% district, 16% national, and 9%
-            international level athletes, we prioritize both academic and
-            athletic excellence. Our comprehensive support includes free
-            counseling in sports psychology and injury management,
-            concept-building sessions, and personalized doubt resolution. With
-            99% of students spending less than 2 hours daily, we empower them to
-            excel in both their studies and sports endeavors.
+            International Schooling, accredited by Cognia, USA and approved by
+            NCAA, is the best American Online School serving 14000+ students
+            across 135+ countries. Our flexible schooling system prioritizes the
+            dreams of every student and helps them pursue them without
+            neglecting their academics. At International Schooling, we
+            understand it becomes tough to balance academics and sports
+            together. International Schooling encourages student athletes and
+            helps them excel in academics as well as sports by customizing
+            course plans and study hours best suited to the needs of our young
+            sportspersons. With a diverse community of student athletes
+            comprising international, national and state level players we
+            prioritize both academic excellence and training. We are proud to
+            have student athletes who are making us as well as their countries
+            proud.
           </p>
           <Button
             message={"Let's Connect"}
@@ -59,6 +63,136 @@ function About() {
               "https://www.youtube.com/embed/EMvEtLBud8A?si=eoRDBiWxd4Err3wE&autoplay=1"
             }
           />
+        </div>
+      </div>
+
+      <div className="r-w flex flex-col-reverse lg:flex-row lg:items-center lg:gap-12 py-6 lg:py-16 text-center lg:text-left">
+        <div className="lg:w-2/3 h-auto mx-auto">
+          <Image
+            src={ImagePath.WHY_US_IMG}
+            width={400}
+            height={400}
+            priority
+            className="h-auto rounded-xl"
+            alt="image"
+          />
+        </div>
+        <div className="lg:mb-0 mb-0">
+          <h1 className="g-t mb-4 font-extrabold text-3xl lg:text-5xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-tex ">
+            Why Us
+          </h1>
+          <div className="flex gap-3">
+            <div>
+              <Image
+                src={ImagePath.ICON1}
+                width={20}
+                height={20}
+                className="h-auto mb-3"
+                alt="icon"
+              />
+            </div>
+            <div>
+              <p className="text-gray-800 lg:text-justify text-sm">
+                Accredited and recognized
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <div>
+              <Image
+                src={ImagePath.ICON2}
+                width={20}
+                height={20}
+                className="h-auto mb-3"
+                alt="icon"
+              />
+            </div>
+            <div>
+              <p className="text-gray-800 lg:text-justify text-sm">
+                Approved by NCAA
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <div>
+              <Image
+                src={ImagePath.ICON3}
+                width={20}
+                height={20}
+                className="h-auto mb-3"
+                alt="icon"
+              />
+            </div>
+            <div>
+              <p className="text-gray-800 lg:text-justify text-sm">
+                Accessible and Affordable
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <div>
+              <Image
+                src={ImagePath.ICON4}
+                width={20}
+                height={20}
+                className="h-auto mb-3"
+                alt="icon"
+              />
+            </div>
+            <div>
+              <p className="text-gray-800 lg:text-justify text-sm">
+                Customized learning
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <div>
+              <Image
+                src={ImagePath.ICON4}
+                width={20}
+                height={20}
+                className="h-auto mb-3"
+                alt="icon"
+              />
+            </div>
+            <div>
+              <p className="text-gray-800 lg:text-justify text-sm">
+                Flexible study hours
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <div>
+              <Image
+                src={ImagePath.ICON4}
+                width={20}
+                height={20}
+                className="h-auto mb-3"
+                alt="icon"
+              />
+            </div>
+            <div>
+              <p className="text-gray-800 lg:text-justify text-left text-sm">
+                Free counseling on sports psychology and injury management
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <div>
+              <Image
+                src={ImagePath.ICON4}
+                width={20}
+                height={20}
+                className="h-auto mb-3"
+                alt="icon"
+              />
+            </div>
+            <div>
+              <p className="text-gray-800 lg:text-justify text-sm">
+                24/7 administration support
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="gap-10 r-w flex flex-col lg:flex-row justify-center items-stretch rounded-2xl bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] p-10">
@@ -105,96 +239,6 @@ function About() {
           </p>
         </div>
         <div />
-      </div>
-      <div className="r-w flex flex-col-reverse lg:flex-row lg:items-center lg:gap-12 py-6 lg:py-16 text-center lg:text-left">
-        <div className="lg:w-2/3 h-auto mx-auto">
-          <Image
-            src={ImagePath.WHY_US_IMG}
-            width={400}
-            height={400}
-            priority
-            className="h-auto rounded-xl"
-            alt="image"
-          />
-        </div>
-        <div className="lg:mb-0 mb-5">
-          <h1 className="g-t mb-4 font-extrabold text-3xl lg:text-5xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-tex ">
-            Why Us
-          </h1>
-          <p className="text-gray-800 lg:text-justify mb-5 text-sm">
-            International Schooling is Cognia-accredited K-12 Online School
-            connects students across 120 countries to achieve career dreams
-            without sacrificing education.
-          </p>
-          <div className="flex gap-3">
-            <div>
-              <Image
-                src={ImagePath.ICON1}
-                width={20}
-                height={20}
-                className="h-auto mb-3"
-                alt="icon"
-              />
-            </div>
-            <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
-                72% district, 16% national & 9% International level athletes in
-                our student community.
-              </p>
-            </div>
-          </div>
-          <div className="flex gap-3">
-            <div>
-              <Image
-                src={ImagePath.ICON2}
-                width={20}
-                height={20}
-                className="h-auto mb-3"
-                alt="icon"
-              />
-            </div>
-            <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
-                We give all our students free counselling on sports psychology
-                and injury management.
-              </p>
-            </div>
-          </div>
-          <div className="flex gap-3">
-            <div>
-              <Image
-                src={ImagePath.ICON3}
-                width={20}
-                height={20}
-                className="h-auto mb-3"
-                alt="icon"
-              />
-            </div>
-            <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
-                We provide concept-building and doubt building sessions to all
-                our students.
-              </p>
-            </div>
-          </div>
-          <div className="flex gap-3">
-            <div>
-              <Image
-                src={ImagePath.ICON4}
-                width={20}
-                height={20}
-                className="h-auto mb-3"
-                alt="icon"
-              />
-            </div>
-            <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
-                99% of our students spend less than 2 hours per day with us to
-                excel in their studies.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );

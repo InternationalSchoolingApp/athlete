@@ -10,10 +10,10 @@ const Hero = () => {
         <div className="text-center lg:text-left">
           <div className="g-t bg-gradient-to-r from-[#007EFF] to-[#192C99] bg-clip-text text-transparent mb-7">
             <h1 className="text-3xl md:text-5xl font-extrabold mb-1">
-              Be the Best!
+              BEYOND THE CLASSROOM:
             </h1>
             <p className="text-2xl md:text-4xl font-medium">
-              In Sports & School
+              EXCELLING IN ACADEMICS AND SPORTS TOGETHER
             </p>
           </div>
 
@@ -31,8 +31,9 @@ const Hero = () => {
 
           <div className="mb-7">
             <p className="font-medium">
-              Over 8,000 young athletes aged 5-18 years are currently studying
-              with us from K-12 and have found the perfect balance between
+              Currently, it has over 2000 student athletes, studying in grades
+              KG-12,balancing good academic performance and intense sports
+              training.
               <br />
               <br />
               <span className="font-semibold">
