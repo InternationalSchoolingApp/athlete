@@ -65,7 +65,51 @@ function About() {
           />
         </div>
       </div>
-
+      <div className="gap-10 r-w flex flex-col lg:flex-row justify-center items-stretch rounded-2xl bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] p-10">
+        <div className="w-full border-t border-l border-white/70 rounded-3xl p-10">
+          <Image
+            src={ImagePath.VISOIN_ICON}
+            width={50}
+            height={50}
+            className="h-auto mb-3"
+            alt="icon"
+          />
+          <h1 className="text-white text-xl font-bold mb-3">Vision</h1>
+          <p className="text-white text-sm text-justify">
+            To create smiles for students across the globe with excellent
+            quality schooling.
+          </p>
+        </div>
+        <div className="w-full border-r border-b border-white/70 rounded-3xl p-10">
+          <Image
+            src={ImagePath.MISSION_ICON}
+            width={50}
+            height={50}
+            className="h-auto mb-3"
+            alt="icon"
+          />
+          <h1 className="text-white text-xl font-bold mb-3">Mission</h1>
+          <p className="text-white text-sm text-justify">
+            To change lives of students with the most accessible and affordable
+            schooling.
+          </p>
+        </div>
+        <div className="w-full border-t border-r border-white/70 rounded-3xl p-10">
+          <Image
+            src={ImagePath.PHILOSOPHY_ICON}
+            width={50}
+            height={50}
+            className="h-auto mb-3"
+            alt="icon"
+          />
+          <h1 className="text-white text-xl font-bold mb-3">Philosophy</h1>
+          <p className="text-white text-sm text-justify">
+            Each child is unique and deserves an education as per their needs,
+            and every decision we make revolves around the student.
+          </p>
+        </div>
+        <div />
+      </div>
       <div className="r-w flex flex-col-reverse lg:flex-row lg:items-center lg:gap-12 py-6 lg:py-16 text-center lg:text-left">
         <div className="lg:w-2/3 h-auto mx-auto">
           <Image
@@ -77,7 +121,7 @@ function About() {
             alt="image"
           />
         </div>
-        <div className="lg:mb-0 mb-0">
+        <div className="lg:mb-0 mb-">
           <h1 className="g-t mb-4 font-extrabold text-3xl lg:text-5xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-tex ">
             Why Us
           </h1>
@@ -194,51 +238,6 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="gap-10 r-w flex flex-col lg:flex-row justify-center items-stretch rounded-2xl bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] p-10">
-        <div className="w-full border-t border-l border-white/70 rounded-3xl p-10">
-          <Image
-            src={ImagePath.VISOIN_ICON}
-            width={50}
-            height={50}
-            className="h-auto mb-3"
-            alt="icon"
-          />
-          <h1 className="text-white text-xl font-bold mb-3">Vision</h1>
-          <p className="text-white text-sm text-justify">
-            To create smiles for students across the globe with excellent
-            quality schooling.
-          </p>
-        </div>
-        <div className="w-full border-r border-b border-white/70 rounded-3xl p-10">
-          <Image
-            src={ImagePath.MISSION_ICON}
-            width={50}
-            height={50}
-            className="h-auto mb-3"
-            alt="icon"
-          />
-          <h1 className="text-white text-xl font-bold mb-3">Mission</h1>
-          <p className="text-white text-sm text-justify">
-            To change lives of students with the most accessible and affordable
-            schooling.
-          </p>
-        </div>
-        <div className="w-full border-t border-r border-white/70 rounded-3xl p-10">
-          <Image
-            src={ImagePath.PHILOSOPHY_ICON}
-            width={50}
-            height={50}
-            className="h-auto mb-3"
-            alt="icon"
-          />
-          <h1 className="text-white text-xl font-bold mb-3">Philosophy</h1>
-          <p className="text-white text-sm text-justify">
-            Each child is unique and deserves an education as per their needs,
-            and every decision we make revolves around the student.
-          </p>
-        </div>
-        <div />
       </div>
     </>
   );
