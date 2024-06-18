@@ -37,8 +37,8 @@ const Navbar = () => {
         <div className="r-w flex justify-between items-center lg:py-5 py-3 gap-2 backdrop-blur">
           <Link className="w-full md:w-1/2 lg:w-1/3" href={"/"}>
             <Image
-              width={500}
-              height={500}
+              width={380}
+              height={40}
               src={ImagePath.LOGO}
               alt="logo"
               className="h-auto"
@@ -61,6 +61,7 @@ const Navbar = () => {
             <div className="">
               <Link
                 href={"https://internationalschooling.org/enrollment/"}
+                referrerPolicy="no-referrer"
                 target="_blank"
                 className="rounded-full border-2 py-2 px-3 font-semibold ml-8 hover:border-[#007EFF] duration-150 hover:text-[#007EFF]"
               >
@@ -74,6 +75,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center gap-3 lg:hidden">
             <Link
               href={"https://internationalschooling.org/enrollment/"}
+              referrerPolicy="no-referrer"
               target="_blank"
               className="rounded-lg border-2 py-2 px-3 text-sm font-semibold text-white border-[#007EFF] bg-[#007EFF] duration-150 hover:bg-blue-700 hover:border-blue-700 lg:hidden"
             >

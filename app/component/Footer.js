@@ -38,6 +38,7 @@ const Footer = () => {
               <li>
                 <Link
                   href={"https://internationalschooling.org/enrollment/"}
+                  referrerPolicy="no-referrer"
                   target="_blank"
                   className="hover:underline"
                 >
@@ -51,6 +52,7 @@ const Footer = () => {
             <Link
               href={"https://www.facebook.com/theinternationalschooling/"}
               target="_blank"
+              referrerPolicy="no-referrer"
             >
               <svg
                 width="25"
@@ -67,6 +69,7 @@ const Footer = () => {
                 "https://www.linkedin.com/company/internationalschooling/?originalSubdomain=sg"
               }
               target="_blank"
+              referrerPolicy="no-referrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -83,6 +86,7 @@ const Footer = () => {
                 "https://www.youtube.com/channel/UCpKdrEEtos91k757BqHU6yA?view_as=subscriber"
               }
               target="_blank"
+              referrerPolicy="no-referrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,6 +101,7 @@ const Footer = () => {
             <Link
               href={"https://www.instagram.com/international_schooling"}
               target="_blank"
+              referrerPolicy="no-referrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,6 +116,7 @@ const Footer = () => {
             <Link
               href={"https://www.pinterest.com/inhomeschooling/"}
               target="_blank"
+              referrerPolicy="no-referrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -24,7 +24,7 @@ const content = [
   },
   {
     svg: ImagePath.STUDENT_ATHLETE,
-    alt: "profile",
+    alt: "athlete",
     count: "2000+",
     name: "Student Athletes",
   },
@@ -51,9 +51,6 @@ const SportsStars = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-10 w-4/5 relative">
           {content.map((item, index) => (
             <div key={index} className="overflow-hidden">
-              {(item.count === "12000+" || item.count === "135+") && (
-                <div className="lg:w-0.5 w-40 h-0.5 lg:h-36 lg:bg-gradient-to-t bg-gradient-to-r from-transparent via-[#2949FF] to-transparent absolute z-20 lg:ml-52 -ml-6 mt-32 lg:mt-0"></div>
-              )}
               <Image
                 width={200}
                 height={200}
@@ -81,6 +78,7 @@ const SportsStars = () => {
           message={"BOOK A FREE LIVE SCHOOL DEMO"}
           url={"https://enroll.internationalschooling.org/demo/"}
           target={"_blank"}
+          referrerPolicy={"no-referrer"}
           buttonClass={"w-full lg:w-1/2"}
         />
       </div>
