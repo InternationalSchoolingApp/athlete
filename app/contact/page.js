@@ -1,7 +1,8 @@
 import ImagePath from "constant/ImagePath";
 import React from "react";
 import Image from "next/image";
-import PPCForm from "component/PPCForm";
+import DemoForm from "component/DemoForm";
+//import PPCForm from "component/PPCForm";
 
 export const metadata = {
   title: "Contact Us | International Schooling - Student Athletes Program",
@@ -37,7 +38,7 @@ const contact = () => {
         <h2 className="text-xl font-bold mb-4 text-center">
           Fill The Form To Know More
         </h2>
-        <PPCForm folderName={"Sports"} />
+        <DemoForm folderName={"Sports"} />
       </div>
     </div>
   );
