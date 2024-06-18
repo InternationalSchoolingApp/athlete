@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
           <div className="text-white text-center mb-5">
             <p className="text-lg lg:text-2xl font-bold">FILL THE FORM</p>
             <p className="text-base lg:text-lg font-medium">
-              To Engage with our expert Academic Counsellor
+              To Talk to our expert Academic Counsellor
             </p>
           </div>
           <PPCForm folderName={"athelete"} />
