@@ -61,9 +61,9 @@ const WhyChooseUs = () => {
 
         <div className="bg-[#272D3D] rounded-2xl lg:p-5 p-2">
           <div className="text-white text-center mb-5">
-            <p className="text-lg lg:text-2xl font-bold">FILL OUT THE FORM</p>
+            <p className="text-lg lg:text-2xl font-bold">FILL THE FORM</p>
             <p className="text-base lg:text-lg font-medium">
-              TO ENGAGE WITH OUR ACADEMIC EXPERT
+              To Engage with our expert Academic Counsellor
             </p>
           </div>
           <PPCForm folderName={"athelete"} />

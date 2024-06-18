@@ -32,7 +32,7 @@ const RightSchool = () => {
         <h3 className="text-[#2949FF] font-extrabold lg:text-4xl text-xl mb-2 mt-10">
           The Right School For Future Champions :
         </h3>
-        <p className="text-black font-medium lg:w-1/2">
+        <p className="text-black font-medium ">
           International Schooling, accredited by Cognia is a KG-12 American
           online School. With a diverse community of students from over 135
           countries, International Schooling is helping thousands of students

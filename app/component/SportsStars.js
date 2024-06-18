@@ -7,7 +7,7 @@ const content = [
   {
     svg: ImagePath.HONORS_ICON,
     alt: "honors",
-    count: "12000+",
+    count: "14000+",
     name: "Students",
   },
   {
@@ -19,8 +19,14 @@ const content = [
   {
     svg: ImagePath.PROFILE_ICON,
     alt: "profile",
-    count: "500+",
+    count: "600+",
     name: "Teachers",
+  },
+  {
+    svg: ImagePath.STUDENT_ATHLETE,
+    alt: "profile",
+    count: "2000+",
+    name: "Student Athletes",
   },
 ];
 
@@ -30,7 +36,6 @@ const SportsStars = () => {
       <div className="bg-[#0E083F] mt-10 p-10 flex flex-col lg:flex-row justify-between items-center rounded-3xl gap-10">
         <div className="">
           <h3 className="text-[#2949FF] font-extrabold text-xl lg:text-4xl text-center lg:text-left">
-            These are some of our <br />
             <span className="text-white">SPORTS STARS:</span>
           </h3>
           <p className="text-white font-medium mt-3 mb-5 text-center lg:text-left">

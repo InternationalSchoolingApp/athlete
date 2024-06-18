@@ -39,5 +39,6 @@ const ImagePath = {
   FLEXIBLE_STUDY: "/Flexible_Study_Hours.svg",
   FREE_COUNSELING: "/Councelling.svg",
   SUPPORT: "/24_ hours_support.svg",
+  STUDENT_ATHLETE: "/Student_Athletes.svg",
 };
 export default ImagePath;
