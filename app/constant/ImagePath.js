@@ -32,5 +32,12 @@ const ImagePath = {
   WHY_US_IMG: "/why_img.webp",
   MAP_IMG: "/contact_map.png",
   CONTACT_IMG: "/contact.webp",
+  APPROVED_BY_NCAA: "/approved.svg",
+  ACCREDITED: "/seal_certificate.svg",
+  AFFORDABLE: "/funding.svg",
+  CUSTOMIZED_LEARNING: "/Customized_learning.svg",
+  FLEXIBLE_STUDY: "/Flexible_Study_Hours.svg",
+  FREE_COUNSELING: "/Councelling.svg",
+  SUPPORT: "/24_ hours_support.svg",
 };
 export default ImagePath;

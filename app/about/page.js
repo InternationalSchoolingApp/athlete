@@ -111,7 +111,7 @@ function About() {
         <div />
       </div>
       <div className="r-w flex flex-col-reverse lg:flex-row lg:items-center lg:gap-12 py-6 lg:py-16 text-center lg:text-left">
-        <div className="lg:w-2/3 h-auto mx-auto">
+        <div className=" h-auto mx-auto">
           <Image
             src={ImagePath.WHY_US_IMG}
             width={400}
@@ -121,14 +121,14 @@ function About() {
             alt="image"
           />
         </div>
-        <div className="lg:mb-0 mb-">
+        <div className="lg:mb-0 mb-10">
           <h1 className="g-t mb-4 font-extrabold text-3xl lg:text-5xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-tex ">
             Why Us
           </h1>
           <div className="flex gap-3">
             <div>
               <Image
-                src={ImagePath.ICON1}
+                src={ImagePath.ACCREDITED}
                 width={20}
                 height={20}
                 className="h-auto mb-3"
@@ -136,15 +136,13 @@ function About() {
               />
             </div>
             <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
-                Accredited and recognized
-              </p>
+              <p className="text-gray-800 text-sm">Accredited and recognized</p>
             </div>
           </div>
           <div className="flex gap-3">
             <div>
               <Image
-                src={ImagePath.ICON2}
+                src={ImagePath.APPROVED_BY_NCAA}
                 width={20}
                 height={20}
                 className="h-auto mb-3"
@@ -152,15 +150,13 @@ function About() {
               />
             </div>
             <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
-                Approved by NCAA
-              </p>
+              <p className="text-gray-800 text-sm">Approved by NCAA</p>
             </div>
           </div>
           <div className="flex gap-3">
             <div>
               <Image
-                src={ImagePath.ICON3}
+                src={ImagePath.AFFORDABLE}
                 width={20}
                 height={20}
                 className="h-auto mb-3"
@@ -168,15 +164,13 @@ function About() {
               />
             </div>
             <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
-                Accessible and Affordable
-              </p>
+              <p className="text-gray-800 text-sm">Accessible and Affordable</p>
             </div>
           </div>
           <div className="flex gap-3">
             <div>
               <Image
-                src={ImagePath.ICON4}
+                src={ImagePath.CUSTOMIZED_LEARNING}
                 width={20}
                 height={20}
                 className="h-auto mb-3"
@@ -184,15 +178,13 @@ function About() {
               />
             </div>
             <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
-                Customized learning
-              </p>
+              <p className="text-gray-800 text-sm">Customized learning</p>
             </div>
           </div>
           <div className="flex gap-3">
             <div>
               <Image
-                src={ImagePath.ICON4}
+                src={ImagePath.FLEXIBLE_STUDY}
                 width={20}
                 height={20}
                 className="h-auto mb-3"
@@ -200,15 +192,13 @@ function About() {
               />
             </div>
             <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
-                Flexible study hours
-              </p>
+              <p className="text-gray-800 text-sm">Flexible study hours</p>
             </div>
           </div>
           <div className="flex gap-3">
             <div>
               <Image
-                src={ImagePath.ICON4}
+                src={ImagePath.FREE_COUNSELING}
                 width={20}
                 height={20}
                 className="h-auto mb-3"
@@ -216,7 +206,7 @@ function About() {
               />
             </div>
             <div>
-              <p className="text-gray-800 lg:text-justify text-left text-sm">
+              <p className="text-gray-800 text-left text-sm">
                 Free counseling on sports psychology and injury management
               </p>
             </div>
@@ -224,7 +214,7 @@ function About() {
           <div className="flex gap-3">
             <div>
               <Image
-                src={ImagePath.ICON4}
+                src={ImagePath.SUPPORT}
                 width={20}
                 height={20}
                 className="h-auto mb-3"
@@ -232,7 +222,7 @@ function About() {
               />
             </div>
             <div>
-              <p className="text-gray-800 lg:text-justify text-sm">
+              <p className="text-gray-800 text-sm">
                 24/7 administration support
               </p>
             </div>
