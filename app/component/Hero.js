@@ -31,9 +31,9 @@ const Hero = () => {
 
           <div className="mb-7">
             <p className="font-medium">
-              Currently, it has over 2000 student athletes, studying in grades
-              KG-12,balancing good academic performance and intense sports
-              training.
+              International Schooling, accredited by Cognia, USA and approved by
+              National Collegiate Athletic Association (NCAA) is the most
+              recommended and trusted online school.
               <br />
               <br />
               <span className="font-semibold">

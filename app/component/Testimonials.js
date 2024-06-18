@@ -69,7 +69,8 @@ const Testimonials = () => {
 
       <div className="flex flex-col items-center mt-10">
         <h3 className="text-xl lg:text-3xl font-bold text-black lg:mb-7 mb-4 text-center">
-          Forget Average Be Legendary Some line like this
+          Crafting brilliance, Igniting potential and Embracing the
+          extraordinary at every step
         </h3>
         <Button
           message={"Let's Connect"}

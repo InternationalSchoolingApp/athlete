@@ -6,22 +6,22 @@ const content = [
   {
     svg: ImagePath.MEDAL_ICON,
     alt: "medal",
-    para: "72% district, 16% national & 9% International level athletes in our student community.",
+    para: "Over 2000 athletes from our student community playing at International, National and State levels.",
   },
   {
     svg: ImagePath.DOCTOR_ICON,
     alt: "doctor",
-    para: "We give all our students free counselling on sports psychology and injury management.",
+    para: "We offer free counselling on sports psychology and injury management to our student athletes.",
   },
   {
     svg: ImagePath.BRAIN_ICON,
     alt: "brain",
-    para: "We provide concept-building and doubt building sessions to all our students.",
+    para: "We help our student athletes balance their academics and training perfectly.",
   },
   {
     svg: ImagePath.TIME_ICON,
     alt: "time",
-    para: "99% of our students spend less than 2 hours per day with us to excel in their studies.",
+    para: "We customize lesson plans and study hours to help our young sportspersons excel in academics.",
   },
 ];
 
@@ -30,13 +30,13 @@ const RightSchool = () => {
     <>
       <div className="">
         <h3 className="text-[#2949FF] font-extrabold lg:text-4xl text-xl mb-2 mt-10">
-          The Right School For <br />
-          Future Champions :
+          The Right School For Future Champions :
         </h3>
         <p className="text-black font-medium lg:w-1/2">
-          International Schooling is Cognia-accredited K-12 Online School
-          connects students across 120 countries to achieve career dreams
-          without sacrificing education.
+          International Schooling, accredited by Cognia is a KG-12 American
+          online School. With a diverse community of students from over 135
+          countries, International Schooling is helping thousands of students
+          achieve their dreams without sacrificing their education.
         </p>
 
         <div className="grid lg:grid-cols-4 grid-cols-2 gap-5">
