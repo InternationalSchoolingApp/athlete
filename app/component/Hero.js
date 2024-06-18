@@ -17,7 +17,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex mb-7 gap-3 lg:items-center">
+          <div className="flex mb-7 gap-3 lg:items-center justify-center lg:justify-normal">
             <h4 className="text-lg md:text-2xl font-semibold text-black">
               ✔ Accredited.
             </h4>
