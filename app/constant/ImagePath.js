@@ -1,7 +1,7 @@
 const ImagePath = {
   LOGO: "/IS-logo.webp",
   LOGO_WHITE: "/IS-Logo-White.webp",
-  HERO_IMG: "/hero-image.webp",
+  HERO_IMG: "/Athlete_Img.png",
   COGNIA_LOGO: "/cognia.logo.webp",
   COLLEGEBOARD_LOGO: "/college-board-logo.webp",
   NCAA_LOGO: "/ncaa-logo.webp",
