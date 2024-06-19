@@ -55,7 +55,6 @@ const Hero = () => {
             height={500}
             priority
             src={ImagePath.HERO_IMG}
-            layout="responsive"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt="hero-image"
             className="lg:w-full mx-auto lg:mx-0 h-auto rounded-3xl"
