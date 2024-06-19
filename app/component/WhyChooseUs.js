@@ -15,7 +15,7 @@ const content = [
     svg: ImagePath.TEACHER_ICON,
     alt: "teacher-icon",
     heading: "Internationally Trained and Certified Teachers:",
-    para: "International Schooling has teachers from over 600+ teachers from over 50 counties, speaking 40+ languages who have extensive experience and expertise in their respective fields.",
+    para: "International Schooling has over 600+ teachers from over 50 counties, speaking 40+ languages who have extensive experience and expertise in their respective fields.",
     width: "w-7",
   },
   {
