@@ -29,8 +29,8 @@ const contact = () => {
           src={ImagePath.CONTACT_IMG}
           className="h-auto"
           width={400}
-          height={400}
-          priority
+          height={320}
+          priority={true}
           alt="map_image"
         />
       </div>
