@@ -33,9 +33,9 @@ const content = [
 const SportsStars = () => {
   return (
     <>
-      <div className="bg-[#0E083F] mt-10 p-10 flex flex-col lg:flex-row justify-between items-center rounded-3xl gap-10">
+      <div className=" lg:grid lg:grid-cols-4 lg:divide-x lg:divide-blue-700 bg-[#0E083F] mt-10 p-10 flex flex-col lg:flex-row justify-between items-center rounded-3xl gap-10 lg:gap-0">
         {content.map((item, index) => (
-          <div key={index} className="overflow-hidden">
+          <div key={index} className="flex flex-col justify-center w-full">
             <Image
               width={200}
               height={200}
