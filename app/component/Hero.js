@@ -10,7 +10,8 @@ const Hero = () => {
         <div className="text-center lg:text-left">
           <div className="g-t bg-gradient-to-r from-[#007EFF] to-[#192C99] bg-clip-text text-transparent mb-7">
             <h1 className="text-3xl md:text-5xl font-extrabold mb-1">
-              BEYOND THE CLASSROOM:
+              BEYOND THE <br />
+              CLASSROOM:
             </h1>
             <p className="text-2xl md:text-4xl font-medium">
               EXCELLING IN ACADEMICS AND SPORTS TOGETHER
