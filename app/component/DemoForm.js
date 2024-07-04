@@ -1,9 +1,8 @@
 "use client";
-import CountriesConstant from 'constant/CountryConstant';
-import TimeZones from 'constant/TimeZones';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-
+import CountriesConstant from '../constants/CountryConstant';
+import TimeZones from '@constants/TimeZones';
 
 function getCookie(key) {
     if (!key) return false;
@@ -220,8 +219,8 @@ const DemoForm = ({ folderName }) => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        //const url = 'http://localhost:9090/lead-api/api/v1/common/reqeust-demo-content';
-        const url = 'https://sm.internationalschooling.org/api/v1/common/reqeust-demo-content';
+        const url = 'http://localhost:9090/lead-api/api/v1/common/reqeust-demo-content';
+        //const url = 'https://sm.internationalschooling.org/api/v1/common/reqeust-demo-content';
         try {
             const response = await fetch(url, {
                 method: 'POST',
@@ -232,6 +231,7 @@ const DemoForm = ({ folderName }) => {
             });
 
             const result = await response.json();
+            debugger
             if (result.status === '0' || result.status === '2') {
                 console.error('Server error:', result.message);
             } else {
@@ -240,6 +240,14 @@ const DemoForm = ({ folderName }) => {
                 if (result.name) payload += `?dn=${base64Encode(result.name)}`;
                 if (result.email) payload += `&de=${base64Encode(result.email)}`;
                 if (result.country) payload += `&dc=${base64Encode(result.country)}`;
+                if (result.type) payload += `&t=${base64Encode(result.type)}`
+                if (result.schoolPersonId) payload += `&spId=${base64Encode(result.schoolPersonId)}`
+                if (result.meetingId) payload += `&mId=${base64Encode(result.meetingId)}`
+                if (result.timeZone) payload += `&tz=${base64Encode(result.timeZone)}`
+                if (result.eventId) payload += `&eId=${base64Encode(result.eventId)}`
+                if (result.startDate) payload += `&sd=${base64Encode(result.startDate)}`
+                if (result.endDate) payload += `&ed=${base64Encode(result.endDate)}`
+
                 redirectUrl = `${ORIGIN_URL}/is-thankyou${payload}`;
                 if (folderName === 'brochure') {
                     redirectUrl = `${ORIGIN_URL}/brochure-thankyou/${payload}`;
@@ -261,8 +269,8 @@ const DemoForm = ({ folderName }) => {
 
     useEffect(() => {
         const fetchFreeSlots = async () => {
-            //const url = 'http://localhost:9090/lead-api/api/v1/common/free-slots-list';
-            const url = "https://sm.internationalschooling.org/api/v1/common/free-slots-list";
+            const url = 'http://localhost:9090/lead-api/api/v1/common/free-slots-list';
+            //const url = "https://sm.internationalschooling.org/api/v1/common/free-slots-list";
             const payload = {
                 book: "Y",
                 countryTimezoneId: timezone,
