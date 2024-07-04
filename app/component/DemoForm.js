@@ -1,8 +1,9 @@
 "use client";
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-import CountriesConstant from '../constants/CountryConstant';
-import TimeZones from '@constants/TimeZones';
+// import TimeZones from '@constants/TimeZones';
+import CountriesConstant from 'constant/CountryConstant';
+import TimeZones from 'constant/TimeZones';
 
 function getCookie(key) {
     if (!key) return false;
@@ -248,7 +249,8 @@ const DemoForm = ({ folderName }) => {
                 if (result.startDate) payload += `&sd=${base64Encode(result.startDate)}`
                 if (result.endDate) payload += `&ed=${base64Encode(result.endDate)}`
 
-                redirectUrl = `${ORIGIN_URL}/is-thankyou${payload}`;
+                //redirectUrl = `${ORIGIN_URL}/is-thankyou${payload}`;
+                redirectUrl = `${ORIGIN_URL}/is-demo-thankyou${payload}`;
                 if (folderName === 'brochure') {
                     redirectUrl = `${ORIGIN_URL}/brochure-thankyou/${payload}`;
                 }
