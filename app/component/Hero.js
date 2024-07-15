@@ -8,10 +8,10 @@ const Hero = () => {
     <>
       <div className="flex flex-col lg:flex-row justify-between items-start gap-5 md:gap-10">
         <div className="text-center lg:text-left">
-          <div className="mb-3 py-3 px-2 bg-blue-800 rounded ">
-            <h2 className="text-white text-sm md:text-xl">Athlete Scholarship Available! <span className="font-semibold font-mono">upto  20%</span></h2>
+          <div className="mb-3 py-3 px-2 md:px-6 bg-blue-100 border rounded ">
+            <h2 className="text-blue-800 text-sm md:text-xl">Athlete Scholarship Available! <span className="font-semibold font-mono">upto  20%</span></h2>
           </div>
-          <div className="g-t bg-gradient-to-r from-[#007EFF] to-[#192C99] bg-clip-text text-transparent mb-7">
+          <div className="g-t bg-gradient-to-r from-[#007EFF] to-[#192C99] bg-clip-text text-transparent mb-4 md:mb-7">
             <h1 className="text-xl md:text-4xl font-extrabold mb-1">
               BEYOND THE CLASSROOM:
             </h1>
@@ -21,19 +21,19 @@ const Hero = () => {
           </div>
 
           <div className="flex mb-7 gap-3 lg:items-center justify-center lg:justify-normal">
-            <h4 className="text-lg md:text-2xl font-semibold text-black">
+            <h4 className="text-sm md:text-2xl font-semibold text-black">
               ✔ Accredited.
             </h4>
-            <h4 className="text-lg md:text-2xl font-semibold text-black">
+            <h4 className="text-sm md:text-2xl font-semibold text-black">
               ✔ Approved.
             </h4>
-            <h4 className="text-lg md:text-2xl font-semibold text-black">
+            <h4 className="text-sm md:text-2xl font-semibold text-black">
               ✔ Recognized.
             </h4>
           </div>
 
           <div className="mb-7">
-            <p className="font-medium text-justify">
+            <p className=" text-justify">
               International Schooling, accredited by Cognia, USA and approved by
               National Collegiate Athletic Association (NCAA) is the most
               recommended and trusted online school.
