@@ -68,7 +68,7 @@ const Testimonials = () => {
       </div>
 
       <div className="flex flex-col items-center mt-10">
-        <h3 className=" lg:text-2xl font-semibold text-black lg:mb-7 mb-4 text-center">
+        <h3 className=" text-sm lg:text-2xl font-semibold text-black lg:mb-7 mb-4 text-center">
           Crafting brilliance, Igniting potential and Embracing the
           extraordinary at every step
         </h3>
