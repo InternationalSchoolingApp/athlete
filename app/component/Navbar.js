@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ImagePath from "constant/ImagePath";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,6 +28,10 @@ const Navbar = () => {
   const router = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    setIsOpen(false);
+  }, [router])
+
   const ToggleMenu = () => {
     setIsOpen((prev) => !prev);
   };
@@ -49,9 +53,8 @@ const Navbar = () => {
             <ul className="flex gap-10 ">
               {MenuItems.map((item, index) => (
                 <li
-                  className={`font-semibold hover:text-[#007EFF] duration-150 ${
-                    router === item.link ? "text-[#007EFF]" : ""
-                  }`}
+                  className={`font-semibold hover:text-[#007EFF] duration-150 ${router === item.link ? "text-[#007EFF]" : ""
+                    }`}
                   key={index}
                 >
                   <Link href={item.link}>{item.name}</Link>
@@ -116,9 +119,8 @@ const Navbar = () => {
               <ul className="flex flex-col gap-4">
                 {MenuItems.map((item, index) => (
                   <li
-                    className={`font-semibold hover:text-[#007EFF] duration-150 ${
-                      router === item.link ? "text-[#007EFF]" : ""
-                    }`}
+                    className={`font-semibold hover:text-[#007EFF] duration-150 ${router === item.link ? "text-[#007EFF]" : ""
+                      }`}
                     key={index}
                   >
                     <Link href={item.link}>{item.name}</Link>

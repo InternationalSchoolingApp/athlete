@@ -9,8 +9,8 @@ import React from "react";
 function HomePage() {
   return (
     <div className="r-w">
-      <Hero />
       <Accreditation />
+      <Hero />
       <WhyChooseUs />
       <RightSchool />
       <SportsStars />

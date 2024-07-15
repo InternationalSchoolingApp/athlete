@@ -6,14 +6,13 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row justify-between items-center lg:mt-20 mt-10 gap-5 md:gap-10">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-5 md:gap-10">
         <div className="text-center lg:text-left">
           <div className="g-t bg-gradient-to-r from-[#007EFF] to-[#192C99] bg-clip-text text-transparent mb-7">
-            <h1 className="text-3xl md:text-5xl font-extrabold mb-1">
-              BEYOND THE <br />
-              CLASSROOM:
+            <h1 className="text-2xl md:text-4xl font-extrabold mb-1">
+              BEYOND THE CLASSROOM:
             </h1>
-            <p className="text-2xl md:text-4xl font-medium">
+            <p className="text-xl font-medium">
               EXCELLING IN ACADEMICS AND SPORTS TOGETHER
             </p>
           </div>
