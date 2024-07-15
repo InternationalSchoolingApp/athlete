@@ -146,7 +146,7 @@ const PPCForm = ({ folderName }) => {
       utmDescription: getCookie("uc"),
       originalUrl: getCookie("cu"),
       gclid: getCookie("gclid"),
-      utmCampaign: getCookie("ucam") === "Test" ? "gulf" : getCookie("ucam"),
+      utmCampaign: getCookie("ucam") === "Test" ? folderName : getCookie("ucam"),
       utmTerm: getCookie("ut"),
     };
     return data;
