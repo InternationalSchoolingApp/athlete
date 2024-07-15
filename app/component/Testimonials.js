@@ -59,7 +59,7 @@ const Testimonials = () => {
                   alt={item.alt}
                   className="w-20 mx-auto"
                 />
-                <p className="text-black mb-10 text-center">{item.para}</p>
+                <p className="text-black mb-10 text-sm text-justify">{item.para}</p>
                 <p className="text-black font-bold text-center">{item.name}</p>
               </div>
             </div>
@@ -68,7 +68,7 @@ const Testimonials = () => {
       </div>
 
       <div className="flex flex-col items-center mt-10">
-        <h3 className="text-xl lg:text-3xl font-bold text-black lg:mb-7 mb-4 text-center">
+        <h3 className=" lg:text-2xl font-semibold text-black lg:mb-7 mb-4 text-center">
           Crafting brilliance, Igniting potential and Embracing the
           extraordinary at every step
         </h3>

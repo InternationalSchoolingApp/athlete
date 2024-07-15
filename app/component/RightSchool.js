@@ -50,7 +50,7 @@ const RightSchool = () => {
                   alt={item.alt}
                   className="w-10 h-10 mx-auto"
                 />
-                <p className="lg:mt-5 mt-3 text-center">{item.para}</p>
+                <p className="text-sm md:text-lg lg:mt-5 mt-3 text-center">{item.para}</p>
               </div>
             </div>
           ))}

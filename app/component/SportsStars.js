@@ -33,7 +33,7 @@ const content = [
 const SportsStars = () => {
   return (
     <>
-      <div className=" lg:grid lg:grid-cols-4 lg:divide-x lg:divide-blue-700 bg-[#0E083F] mt-10 p-10 flex flex-col lg:flex-row justify-between items-center rounded-3xl gap-10 lg:gap-0">
+      <div className=" grid grid-cols-2  lg:grid-cols-4 lg:divide-x lg:divide-blue-700 bg-[#0E083F] mt-10 p-4 md:p-10  justify-between items-center rounded-3xl gap-4 lg:gap-0">
         {content.map((item, index) => (
           <div key={index} className="flex flex-col justify-center w-full">
             <Image
@@ -46,7 +46,7 @@ const SportsStars = () => {
             <p className="text-[#2949FF] font-extrabold text-3xl lg:text-4xl text-center">
               {item.count}
             </p>
-            <p className="text-white font-medium text-lg lg:text-xl text-center">
+            <p className="text-white font-medium lg:text-xl text-center">
               {item.name}
             </p>
           </div>
@@ -54,8 +54,8 @@ const SportsStars = () => {
       </div>
 
       <div className="mt-10 lg:mt-16 flex flex-col items-center">
-        <h3 className="font-bold text-black text-center text-lg lg:text-2xl mb-6 ">
-          MAKE THE RIGHT CHOICE FOR YOUR CHILD <br />
+        <h3 className="font-bold text-black text-center lg:text-2xl mb-6 ">
+          MAKE THE RIGHT CHOICE FOR YOUR CHILD
           FULFILL YOUR CHILD'S DREAMS
         </h3>
         <Button
