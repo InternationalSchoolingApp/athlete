@@ -37,7 +37,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="w-full bg-white/50 sticky top-0 shadow-sm z-[9999] lg:min-h-[10svh]">
+      <div className="w-full bg-white/50 sticky top-0 shadow-sm z-[9999] lg:min-h-max">
         <div className="r-w flex justify-between items-center py-3 gap-2 bb">
           <Link className="w-max" href={"/"}>
             <Image
