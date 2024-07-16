@@ -119,7 +119,7 @@ function About() {
           width={400}
           height={400}
           priority
-          className="h-auto w-full max-w-[500px] rounded-xl"
+          className="h-auto w-full md:max-w-[500px] rounded-xl"
           alt="image"
         />
         <div className="lg:mb-0 mb-10">
