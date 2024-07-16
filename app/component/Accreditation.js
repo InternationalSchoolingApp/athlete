@@ -5,7 +5,7 @@ import React from "react";
 const Accreditation = () => {
   return (
     <div className="my-4">
-      <div className="bg-gradient-to-r text-center from-[#A3B1FF4D] to-[#FFCACA4D]  py-1 px-2 rounded md:rounded-3xl border">
+      <div className="bg-gradient-to-r text-center from-[#A3B1FF4D] to-[#FFCACA4D]  py-1 px-2 rounded md:rounded-xl border">
         {/* <div className="flex flex-col lg:flex-row  my-4 justify-center items-center gap-4 lg:gap-10 bg-gradient-to-r from-[#A3B1FF4D] to-[#FFCACA4D]  py-4 px-2 rounded-3xl border"> */}
         {/* <Image
         width={500}
@@ -45,7 +45,7 @@ const Accreditation = () => {
           <span className="text-green-600">✔ </span>Recognized
         </h4>
       </div>
-      <div className="mb-3 py-3 px-2 md:px-6 bg-blue-100 border rounded ">
+      <div className="mb-3 py-3 px-2 md:px-6 bg-blue-100 border rounded-xl ">
         <h2 className="text-blue-800 text-sm md:text-xl text-center uppercase font-semibold">Athlete  Discount<span className=" font-black font-mono	md:text-3xl text-red-500 animate-ping "> upto  20%</span></h2>
       </div>
     </div>
