@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ImagePath from "constant/ImagePath";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,11 +28,11 @@ const Navbar = () => {
   const router = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    setIsOpen(false);
-  }, [router])
+  // useEffect(() => {
+  //   setIsOpen(false);
+  // }, [router])
 
-  const ToggleMenu = () => {
+  const toggleMenu = () => {
     setIsOpen((prev) => !prev);
   };
   return (
@@ -88,7 +88,7 @@ const Navbar = () => {
               <input
                 className=""
                 onClick={() => {
-                  ToggleMenu();
+                  toggleMenu();
                 }}
                 type="checkbox"
               />

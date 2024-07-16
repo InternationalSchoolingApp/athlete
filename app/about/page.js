@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import VideoElement from "component/VideoElement";
 import Button from "component/Button";
+import Navbar from "component/Navbar";
+import Footer from "component/Footer";
 
 export const metadata = {
   title: "About Us | International Schooling - Be the Best!",
@@ -15,6 +17,7 @@ export const metadata = {
 function About() {
   return (
     <>
+      <Navbar />
       <div className="relative">
         <div className="absolute z-30 h-full w-full"></div>
         <video
@@ -229,6 +232,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

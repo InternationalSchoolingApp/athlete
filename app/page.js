@@ -1,5 +1,7 @@
 import Accreditation from "component/Accreditation";
+import Footer from "component/Footer";
 import Hero from "component/Hero";
+import Navbar from "component/Navbar";
 import RightSchool from "component/RightSchool";
 import SportsStars from "component/SportsStars";
 import Testimonials from "component/Testimonials";
@@ -8,14 +10,18 @@ import React from "react";
 
 function HomePage() {
   return (
-    <div className="r-w">
-      <Accreditation />
-      <Hero />
-      <WhyChooseUs />
-      <RightSchool />
-      <SportsStars />
-      <Testimonials />
-    </div>
+    <>
+      <Navbar />
+      <div className="r-w">
+        <Accreditation />
+        <Hero />
+        <WhyChooseUs />
+        <RightSchool />
+        <SportsStars />
+        <Testimonials />
+      </div>
+      <Footer />
+    </>
   );
 }
 
