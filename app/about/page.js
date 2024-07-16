@@ -48,7 +48,7 @@ function About() {
             helps them excel in academics as well as sports by customizing
             course plans and study hours best suited to the needs of our young
             sportspersons. With a diverse community of student athletes
-            comprising international, national and state level players we
+            comprising international, national and province level players we
             prioritize both academic excellence and training. We are proud to
             have student athletes who are making us as well as their countries
             proud.
