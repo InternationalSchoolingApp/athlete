@@ -34,7 +34,7 @@ function About() {
       </div>
       <div className="r-w flex flex-col lg:flex-row lg:items-center justify-center lg:gap-12 py-6 lg:py-16 text-center lg:text-left">
         <div className="lg:w-2/3 w-full lg:mb-0 mb-5">
-          <h1 className="g-t mb-4 font-extrabold text-3xl lg:text-5xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-tex">
+          <h1 className="g-t mb-4 font-extrabold text-3xl lg:text-5xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-text">
             About Us
           </h1>
           <p className="text-gray-800 lg:text-justify text-sm mb-5">

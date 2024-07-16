@@ -17,9 +17,9 @@ const VideoElement = ({ image, url, playButton }) => {
   };
 
   return (
-    <div className="">
+    <div className="lg:h-[280px] h-[220px]">
       {!isOpen && (
-        <div onClick={handleVideo} className="w-full cursor-pointer">
+        <div onClick={handleVideo} className="w-full cursor-pointer md:w-[500px]">
           <div className="relative flex items-center justify-center group">
             <svg
               className={`absolute fill-[#027FFF] group-hover:fill-blue-700 duration-150 cursor-pointer md:w-[80px] md:h-[80px] w-[60px] h-[60px] animate-pulse group-hover:animate-none group-hover:scale-105 ${playButton}`}

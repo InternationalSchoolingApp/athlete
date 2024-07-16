@@ -17,13 +17,14 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   background-color: #f7fbff;
-}
+} */
 
 .g-t {
+  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; 
 }
 
 .neu {
@@ -35,4 +36,20 @@ body {
 .bb {
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.animate-spin {
+  animation-name: spin;
+  animation-duration: 25000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
 }

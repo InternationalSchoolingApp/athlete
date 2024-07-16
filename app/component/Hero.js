@@ -32,7 +32,7 @@ const Hero = () => {
             <Image
               width={250}
               height={200}
-              src={ImagePath.TRUSTPILOT_RATING}
+              src={"/Trustpilot2.png"}
               alt="trustpilot-rating"
               className=""
             />
@@ -119,16 +119,17 @@ const Hero = () => {
       </div>
       <div className="py-4 px-2 border rounded-xl shadow-xl">
         <h2 className="text-center text-xl  md:text-3xl mb-4 font-semibold text-blue-800">Scholarship for our athletes:</h2>
-        <div className="grid grid-cols-3 items-center justify-evenly gap-2">
-          <div className="flex items-center justify-center">
-            <Image src={"/trophy_p.png"} width={180} height={200} className="w-[140px] md:w-auto h-auto" />
-          </div>
-          <div className="flex items-center justify-center">
-            <Image src={"/trophy_n.png"} width={180} height={200} className="w-[140px] md:w-auto h-auto" />
-          </div>
-          <div className="flex items-center justify-center">
-            <Image src={"/trophy_i.png"} width={180} height={200} className="w-[140px] md:w-auto h-auto" />
-          </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 items-center justify-evenly gap-2">
+
+          <Image src={"/TROFFY1.png"} width={180} height={200} className="w-[140px] mx-auto md:w-auto h-auto" />
+
+
+          <Image src={"/TROFFY2.png"} width={180} height={200} className="w-[140px] mx-auto md:w-auto h-auto" />
+
+
+          <Image src={"/TROFFY3.png"} width={180} height={200} className="w-[140px] col-span-2 md:col-span-1 mx-auto md:w-auto h-auto" />
+
+
         </div>
 
       </div>
