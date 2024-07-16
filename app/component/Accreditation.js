@@ -5,7 +5,7 @@ import React from "react";
 const Accreditation = () => {
   return (
     <div className="my-4">
-      <div className="bg-gradient-to-r from-[#A3B1FF4D] to-[#FFCACA4D]  py-1 px-2 rounded md:rounded-3xl border">
+      <div className="bg-gradient-to-r text-center from-[#A3B1FF4D] to-[#FFCACA4D]  py-1 px-2 rounded md:rounded-3xl border">
         {/* <div className="flex flex-col lg:flex-row  my-4 justify-center items-center gap-4 lg:gap-10 bg-gradient-to-r from-[#A3B1FF4D] to-[#FFCACA4D]  py-4 px-2 rounded-3xl border"> */}
         {/* <Image
         width={500}
@@ -32,7 +32,7 @@ const Accreditation = () => {
         className="w-1/3 lg:w-1/5"
       /> */}
         <h2 className="text-sm md:text-4xl font-semibold text-blue-600">American Online School For Student Athletes</h2>
-        <p className="font-semibold text-left text-xs">YOUR SCHOOL | YOUR LOCATION | YOUR TIME</p>
+        <p className="font-semibold text-center text-xs">YOUR SCHOOL | YOUR LOCATION | YOUR TIME</p>
       </div>
       <div className="flex uppercase  gap-3 lg:items-center justify-center ">
         <h4 className="text-sm md:text-xl text-black">
