@@ -98,7 +98,7 @@ const Hero = () => {
           src={ImagePath.NCAA_LOGO}
           priority
           alt="ncaa-logo"
-          className="w-full lg:w-1/5"
+          className="w-full md:w-[160px]"
         />
         <Image
           width={500}
@@ -106,7 +106,7 @@ const Hero = () => {
           src={"/advancED.webp"}
           priority
           alt="ncaa-logo"
-          className="w-full lg:w-1/5"
+          className="w-full md:w-[160px]"
         />
         <Image
           width={500}
@@ -114,7 +114,7 @@ const Hero = () => {
           src={ImagePath.COLLEGEBOARD_LOGO}
           priority
           alt="college-logo"
-          className="w-full lg:w-1/5"
+          className="w-full md:w-[160px]"
         />
       </div>
       <div className="py-4 px-2 border rounded-xl shadow-xl">
