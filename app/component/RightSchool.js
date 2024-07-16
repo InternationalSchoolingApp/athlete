@@ -6,7 +6,7 @@ const content = [
   {
     svg: ImagePath.MEDAL_ICON,
     alt: "medal",
-    para: "Over 2000 athletes from our student community playing at International, National and State levels.",
+    para: "Over 3500 athletes from our student community playing at International, National and State levels.",
   },
   {
     svg: ImagePath.DOCTOR_ICON,

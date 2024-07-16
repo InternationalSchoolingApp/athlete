@@ -25,7 +25,7 @@ const content = [
   {
     svg: ImagePath.STUDENT_ATHLETE,
     alt: "athlete",
-    count: "2000+",
+    count: "3500+",
     name: "Student Athletes",
   },
 ];
@@ -55,8 +55,8 @@ const SportsStars = () => {
 
       <div className="mt-10 lg:mt-16 flex flex-col items-center">
         <h3 className="font-bold text-black text-center lg:text-2xl mb-6 ">
-          MAKE THE RIGHT CHOICE FOR YOUR CHILD
-          FULFILL YOUR CHILD'S DREAMS
+          MAKE THE RIGHT CHOICE FOR YOUR CHILD &
+          FULFILL THEIR DREAMS
         </h3>
         <Button
           message={"BOOK A FREE LIVE SCHOOL DEMO"}
