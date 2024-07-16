@@ -6,8 +6,8 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row justify-between items-center gap-5 md:gap-10">
-        <div className="text-center lg:text-left">
+      <div className="grid md:grid-cols-2 justify-between items-center gap-5 md:gap-10">
+        <div className="text-center lg:text-left ">
 
           {/* <div className="g-t bg-gradient-to-r from-[#007EFF] to-[#192C99] bg-clip-text text-transparent mb-4 md:mb-7">
             <h1 className="text-xl md:text-4xl font-extrabold mb-1">
@@ -20,7 +20,7 @@ const Hero = () => {
 
           <h2 className="uppercase text-center font-bold text-blue-800 text-3xl mb-2 md:mb-0"> Top Rated On</h2>
 
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-10 gap-4 mb-4">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-4 mb-4">
             <Image
               width={250}
               height={200}
