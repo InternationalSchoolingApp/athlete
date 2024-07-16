@@ -32,7 +32,7 @@ const Accreditation = () => {
         className="w-1/3 lg:w-1/5"
       /> */}
         <h2 className="text-sm md:text-4xl font-semibold text-blue-600">American Online School For Student Athletes</h2>
-        <p className="font-semibold text-center text-xs">YOUR SCHOOL | YOUR LOCATION | YOUR TIME</p>
+        <p className="font-semibold text-center text-xs md:text-xl">YOUR SCHOOL | YOUR LOCATION | YOUR TIME</p>
       </div>
       <div className="flex uppercase  gap-3 lg:items-center justify-center ">
         <h4 className="text-sm md:text-xl text-black">
