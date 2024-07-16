@@ -63,12 +63,12 @@ const Navbar = () => {
             </ul>
             <div className="">
               <Link
-                href={"https://internationalschooling.org/enrollment/"}
+                href={"https://sms.internationalschooling.org/international-schooling/student/enrollment/ONE_TO_ONE"}
                 referrerPolicy="no-referrer"
                 target="_blank"
                 className="rounded-full border-2 py-2 px-3 font-semibold ml-8 hover:border-[#007EFF] duration-150 hover:text-[#007EFF]"
               >
-                Enrollment
+                Enroll Now
               </Link>
             </div>
           </div>
@@ -77,12 +77,12 @@ const Navbar = () => {
 
           <div className="flex justify-between items-center gap-3 lg:hidden">
             <Link
-              href={"https://internationalschooling.org/enrollment/"}
+              href={"https://sms.internationalschooling.org/international-schooling/student/enrollment/ONE_TO_ONE"}
               referrerPolicy="no-referrer"
               target="_blank"
               className="rounded-lg border-2 py-2 px-3 text-sm font-semibold text-white border-[#007EFF] bg-[#007EFF] duration-150 hover:bg-blue-700 hover:border-blue-700 lg:hidden"
             >
-              Enrollment
+              Enroll Now
             </Link>
             <label className="swap swap-rotate btn btn-square p-2 lg:hidden ">
               <input

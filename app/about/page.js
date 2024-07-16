@@ -68,7 +68,7 @@ function About() {
           />
         </div>
       </div>
-      <div className="gap-10 r-w flex flex-col lg:flex-row justify-center items-stretch rounded-2xl bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] p-10">
+      {/* <div className="gap-10 r-w flex flex-col lg:flex-row justify-center items-stretch rounded-2xl bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] p-10">
         <div className="w-full border-t border-l border-white/70 rounded-3xl p-10">
           <Image
             src={ImagePath.VISOIN_ICON}
@@ -112,18 +112,16 @@ function About() {
           </p>
         </div>
         <div />
-      </div>
+      </div> */}
       <div className="r-w flex flex-col-reverse lg:flex-row lg:items-center lg:gap-12 py-6 lg:py-16 text-center lg:text-left">
-        <div className=" h-auto mx-auto">
-          <Image
-            src={ImagePath.WHY_US_IMG}
-            width={400}
-            height={400}
-            priority
-            className="h-auto rounded-xl"
-            alt="image"
-          />
-        </div>
+        <Image
+          src={ImagePath.WHY_US_IMG}
+          width={400}
+          height={400}
+          priority
+          className="h-auto w-full max-w-[500px] rounded-xl"
+          alt="image"
+        />
         <div className="lg:mb-0 mb-10">
           <h1 className="g-t mb-4 font-extrabold text-3xl lg:text-5xl bg-gradient-to-r from-[#001FCF] to-[#007EFF] inline-block text-transparent bg-clip-tex ">
             Why Us
