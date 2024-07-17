@@ -47,14 +47,14 @@ const Page = () => {
         <div className="relative max-w-screen overflow-x-hidden">
             <div className='w-full z-20 bg-white/50 backdrop-blur sticky top-0 right-0 left-0 shadow'>
                 <header className='r-w  flex items-center justify-between py-2 '>
-                    <Image alt='logo' src={ImagePath.LOGO} width={250} height={40} className=' w-[200px] md:w-[250px] h-auto' />
+                    <Image priority alt='logo' src={ImagePath.LOGO} width={250} height={40} className=' w-[200px] md:w-[250px] h-auto' />
                     <Link href={"#form"} className='btn bg-blue-600 text-white hover:text-blue-600 duration-300'>Enroll Now</Link>
                 </header>
             </div>
-            <Image alt='globe' className='absolute md:opacity-80 -z-10 animate-spin right-0  w-[300px] h-[300px] md:w-[800px] md:h-[800px] top-0 ' src={"/globe.png"} width={400} height={400} />
+            <Image priority alt='globe' className='absolute md:opacity-80 -z-10 animate-spin right-0  w-[300px] h-[300px] md:w-[800px] md:h-[800px] top-0 ' src={"/globe.png"} width={400} height={400} />
             <div className='z-10 r-w lg:flex lg:items-center gap-5 py-4 md:py-12'>
                 <div className='w-full mb-4 lg:mb-0 relative'>
-                    <Image alt='shout' className='absolute w-4 md:w-[30px] h-auto contrast-20 saturate-20 grayscale brightness-50 -left-3 md:-left-10 top-[2px] md:-top-2' src={"/shout.png"} width={30} height={30} />
+                    <Image priority alt='shout' className='absolute w-4 md:w-[30px] h-auto contrast-20 saturate-20 grayscale brightness-50 -left-3 md:-left-10 top-[2px] md:-top-2' src={"/shout.png"} width={30} height={30} />
                     <h3 className='pl-2 md:pl-0 text-2xl font-semibold  md:text-3xl text-blue-900  '>Your<FlipWords duration={1000} words={words} /></h3>
                     <h2 className='mb-2 font-bold text-4xl md:text-5xl text-blue-600'>#Top Rated.</h2>
                     <h1 className='text-blue-700 text-xl md:text-3xl font-semibold'>American Online School</h1>
@@ -66,11 +66,11 @@ const Page = () => {
                 <div>
                     <div className='mb-4 grid grid-cols-2  gap-3 md:text-xl font-bold'>
                         <div className='flex items-center gap-2 px-4 py-3 bg-white border rounded-lg shadow-lg border-b-4 border-b-red-400'>
-                            <Image alt='google-logo' src={"/googlelogo.png"} width={100} height={200} className='h-auto' />
+                            <Image priority alt='google-logo' src={"/googlelogo.png"} width={100} height={200} className='h-auto' />
                             <p >4.8</p>
                         </div>
                         <div className='flex items-center gap-2 px-4 py-3 bg-white border rounded-lg shadow-lg border-b-4 border-b-green-400'>
-                            <Image alt='trust-logo' src={"/trustpilot_1.svg"} width={100} height={200} className='h-auto' />
+                            <Image priority alt='trust-logo' src={"/trustpilot_1.svg"} width={100} height={200} className='h-auto' />
                             <p >4.9</p>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ const Page = () => {
                     <h2 className='text-2xl mb-4 md:text-4xl font-black py-4 px-4 origin-left md:hover:rotate-0 md:duration-300 md:-rotate-3  border bg-blue-300 text-blue-900 rounded-xl'>20% International</h2>
                     <Link href={"#form"} className='shadow  w-full md:w-max text-center btn bg-blue-600 text-white hover:text-blue-600 duration-300 '>Connect with us</Link>
                 </div>
-                <Image alt='vector-logo' width={500} height={500} src={"/583_c.webp"} className='w-full h-auto'></Image>
+                <Image priority alt='vector-logo' width={500} height={500} src={"/583_c.webp"} className='w-full h-auto'></Image>
 
             </div>
 
@@ -179,7 +179,7 @@ const Page = () => {
             <div className=" r-w grid grid-cols-2   lg:grid-cols-4 lg:divide-x  lg:divide-blue-700 bg-blue-600 mt-10 p-4 md:p-10  justify-between items-center rounded-3xl gap-4 lg:gap-0">
                 {content.map((item, index) => (
                     <div key={index} className="flex flex-col justify-center w-full">
-                        <Image
+                        <Image priority
                             width={200}
                             height={200}
                             src={item.svg}
@@ -208,7 +208,7 @@ const Page = () => {
                     <Link href={"#form"} className='shadow  w-full md:w-max text-center btn bg-blue-600 text-white hover:text-blue-600 duration-300 '>Connect with us</Link>
                 </div>
                 <div>
-                    <Image width={400} height={400} src={ImagePath.HERO_IMG} alt='hero-image' className='h-auto w-full'></Image>
+                    <Image priority width={400} height={400} src={ImagePath.HERO_IMG} alt='hero-image' className='h-auto w-full'></Image>
                     <div className='-mt-7 text-center bg-gradient-to-r from-[#001FCF] to-red-600 py-2 px-4 rounded-xl text-white origin-left  -rotate-6'>
                         <h2 className='text-4xl font-black '>Ours Champions</h2>
                         <p>Winning golds and doing perfect in academics</p>
