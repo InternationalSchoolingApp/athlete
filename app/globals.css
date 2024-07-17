@@ -38,17 +38,17 @@ html {
   backdrop-filter: blur(8px);
 }
 
-@keyframes spin {
+/* @keyframes spin {
     from {
         transform:rotate(0deg);
     }
     to {
         transform:rotate(360deg);
     }
-}
+} */
 
 .animate-spin {
-  animation-name: spin;
+  animation-name: wave;
   animation-duration: 25000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
