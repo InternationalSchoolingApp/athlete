@@ -133,39 +133,39 @@ const Page = () => {
             <div className='py-2 r-w grid md:grid-cols-3 gap-4 '>
                 <div className='md:col-span-2 '>
                     <h2 className='mb-2 md:mb-6 font-bold text-4xl md:text-5xl bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t inline-block'>Why Choose Us?</h2>
-                    <div className='  flex flex-col md:flex-row  md:gap-5 py-2 '>
-                        <div className='w-[108px]  h-[108px] hidden md:flex items-center justify-center rounded-xl border mb-4 md:mb-0 shadow bg-gray-50 p-4'>
+                    <div className='  flex flex-col md:flex-row items-center  md:gap-5 py-2 '>
+                        <div className='w-[108px]  h-[108px] hidden md:flex items-center justify-center rounded-xl border shadow bg-gray-50 p-4'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" className='w-[90px] h-auto' viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" /><path d="M6 8h2" /><path d="M6 12h2" /><path d="M16 8h2" /><path d="M16 12h2" /></svg>
                         </div>
                         <div>
-                            <h3 className='text-xl font-semibold text-violet-600'>Customized Learning:</h3>
+                            <h3 className='text-xl font-semibold text-blue-600'>Customized Learning:</h3>
                             <p className='text-justify text-xs md:text-[16px] md:leading-[1.2em]'>We understand every student has different learning needs and varying schedules. Acknowledging the diverse learning requirements of every student, International Schooling tailors lesson plans and study hours to suit their individual needs.</p>
                         </div>
                     </div>
-                    <div className='  flex flex-col md:flex-row  md:gap-5 py-2 '>
-                        <div className='w-[108px]  h-[108px] hidden md:flex items-center justify-center rounded-xl border mb-4 md:mb-0 shadow bg-gray-50 p-4'>
+                    <div className='  flex flex-col md:flex-row items-center  md:gap-5 py-2 '>
+                        <div className='w-[108px]  h-[108px] hidden md:flex items-center justify-center rounded-xl border shadow bg-gray-50 p-4'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" className='w-[90px] h-auto' viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" /><path d="M22 10v6" /><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" /></svg>
                         </div>
                         <div>
-                            <h3 className='text-xl font-semibold text-violet-600'>Trained and Certified Teachers:</h3>
+                            <h3 className='text-xl font-semibold text-blue-600'>Trained and Certified Teachers:</h3>
                             <p className='text-justify text-xs md:text-[16px] md:leading-[1.2em]'>International Schooling has over 600+ teachers from over 50 counties, speaking 40+ languages who have extensive experience and expertise in their respective fields.</p>
                         </div>
                     </div>
-                    <div className='  flex flex-col md:flex-row  md:gap-5 py-2 '>
-                        <div className='w-[108px]  h-[108px] hidden md:flex items-center justify-center rounded-xl border mb-4 md:mb-0 shadow bg-gray-50 p-4'>
+                    <div className='  flex flex-col md:flex-row items-center  md:gap-5 py-2 '>
+                        <div className='w-[108px]  h-[108px] hidden md:flex items-center justify-center rounded-xl border shadow bg-gray-50 p-4'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" className='w-[90px] h-auto' viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H2v15h7c1.7 0 3 1.3 3 3V7c0-2.2-1.8-4-4-4Z" /><path d="m16 12 2 2 4-4" /><path d="M22 6V3h-6c-2.2 0-4 1.8-4 4v14c0-1.7 1.3-3 3-3h7v-2.3" /></svg>
                         </div>
                         <div>
-                            <h3 className='text-xl font-semibold text-violet-600'>American Curriculum:</h3>
+                            <h3 className='text-xl font-semibold text-blue-600'>American Curriculum:</h3>
                             <p className='text-justify text-xs md:text-[16px] md:leading-[1.2em]'>International Schooling offers American Curriculum from grades KG-12 and awards the prestigious American High School Diploma. Our academic programs are designed to prepare your child for success in college and beyond.</p>
                         </div>
                     </div>
-                    <div className='mb-4  flex flex-col md:flex-row  md:gap-5 py-2'>
-                        <div className='w-[108px]  h-[108px] hidden md:flex items-center justify-center rounded-xl border mb-4 md:mb-0 shadow bg-gray-50 p-4'>
+                    <div className='mb-4  flex flex-col md:flex-row items-center  md:gap-5 py-2'>
+                        <div className='w-[108px]  h-[108px] hidden md:flex items-center justify-center rounded-xl border shadow bg-gray-50 p-4'>
                             <Clock />
                         </div>
                         <div>
-                            <h3 className='text-xl font-semibold text-violet-600'>Flexibility:</h3>
+                            <h3 className='text-xl font-semibold text-blue-600'>Flexibility:</h3>
                             <p className='text-justify text-xs md:text-[16px] md:leading-[1.2em]'>The flexibility offered by International Schooling caters to varied schedules, fosters personalized learning environments, adjusts to individual learning paces and, accommodates the diverse learning styles of its students.</p>
                         </div>
                     </div>
