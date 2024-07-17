@@ -1,4 +1,5 @@
 import Clock from '@components/Clock';
+import CollegesMarquee from '@components/CollegesMarquee';
 import { FlipWords } from 'component/FlipText';
 import PPCForm from 'component/PPCForm';
 import VideoElement from 'component/VideoElement';
@@ -48,18 +49,18 @@ const Page = () => {
             <div className='w-full z-20 bg-white/50 backdrop-blur sticky top-0 right-0 left-0 shadow'>
                 <header className='r-w  flex items-center justify-between py-2 '>
                     <Image priority alt='logo' src={ImagePath.LOGO} width={250} height={40} className=' w-[200px] md:w-[250px] h-auto' />
-                    <Link href={"#form"} className='btn bg-blue-600 text-white hover:text-blue-600 duration-300'>Enroll Now</Link>
+                    <Link href={"#form"} className='btn bg-blue-600 text-white hover:text-blue-600 duration-300 uppercase'>Talk to us</Link>
                 </header>
             </div>
             <Image priority alt='globe' className='absolute md:opacity-80 -z-10 animate-spin right-0  w-[300px] h-[300px] md:w-[800px] md:h-[800px] top-0 ' src={"/globe.png"} width={400} height={400} />
             <div className='z-10 r-w lg:flex lg:items-center gap-5 py-4 md:py-12'>
                 <div className='w-full mb-4 lg:mb-0 relative'>
+                    <h2 className='mb-2 font-bold text-4xl md:text-5xl text-blue-600'>#Top Rated </h2>
+                    <h1 className='text-blue-700 text-3xl md:text-4xl font-semibold'>American Online School</h1>
+                    <h2 className=' font-semibold text-xl md:text-3xl text-blue-600'>for Student Athletes</h2>
                     <Image priority alt='shout' className='absolute w-4 md:w-[30px] h-auto contrast-20 saturate-20 grayscale brightness-50 -left-3 md:-left-10 top-[2px] md:-top-2' src={"/shout.png"} width={30} height={30} />
                     <h3 className='pl-2 md:pl-0 text-2xl font-semibold  md:text-3xl text-blue-900  '>Your<FlipWords duration={1000} words={words} /></h3>
-                    <h2 className='mb-2 font-bold text-4xl md:text-5xl text-blue-600'>#Top Rated.</h2>
-                    <h1 className='text-blue-700 text-xl md:text-3xl font-semibold'>American Online School</h1>
-                    <h2 className='mb-2 font-semibold text-3xl md:text-5xl text-blue-600'>for Student Athletes</h2>
-                    <h3 className='text-5xl font-black mb-4 bg-gradient-to-r from-[#001FCF] to-red-600 inline-block text-transparent bg-clip-text g-t'>Upto 20% Scholarship</h3>
+                    <h3 className='text-5xl font-black mb-4 bg-gradient-to-r from-[#001FCF] to-red-600 inline-block text-transparent bg-clip-text g-t'>Upto 20% Discount</h3>
                     <p className='mb-2 md:mb-6 text-justify text-sm '>International Schooling, accredited by Cognia, USA and approved by National Collegiate Athletic Association (NCAA) and College Board is the most recommended and trusted online school. We are serving over 3500 student athletes from 135+ countries, playing more than 50 sports.</p>
                     <Link href={"#form"} className='btn bg-blue-600 text-white hover:text-blue-600 duration-300'>Lets Connect</Link>
                 </div>
@@ -120,13 +121,13 @@ const Page = () => {
             </div>
             <div className='grid md:grid-cols-2 gap-4 r-w py-6 content-center'>
                 <div className='w-full h-max self-center'>
-                    <h2 className='text-4xl md:text-6xl bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t text-center md:text-start font-black mb-3 md:mb-6'>Scholarships.</h2>
-                    <h2 className='text-2xl md:text-4xl font-black py-4 px-4 origin-left mb-2 md:mb-0 md:hover:rotate-0 md:duration-300 md:rotate-2  border border-blue-300 bg-blue-50 text-blue-800 rounded-xl'>10% Province</h2>
-                    <h2 className='text-2xl md:text-4xl font-black py-4 px-4 origin-left mb-2 md:mb-0 border border-blue-300 bg-blue-200 text-blue-800 rounded-xl'>15% National</h2>
-                    <h2 className='text-2xl mb-4 md:text-4xl font-black py-4 px-4 origin-left md:hover:rotate-0 md:duration-300 md:-rotate-3  border bg-blue-300 text-blue-900 rounded-xl'>20% International</h2>
+                    <h2 className='text-4xl md:text-6xl bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t text-center md:text-start font-black mb-3 md:mb-6'>Scholarships</h2>
+                    <h2 className='text-2xl md:text-4xl font-black py-4 px-4 origin-left mb-2 md:mb-0 md:hover:rotate-0 md:duration-300 md:rotate-2  border border-blue-300 bg-blue-50 text-blue-800 rounded-xl'>10% Province Level</h2>
+                    <h2 className='text-2xl md:text-4xl font-black py-4 px-4 origin-left mb-2 md:mb-0 border border-blue-300 bg-blue-200 text-blue-800 rounded-xl'>15% National Level</h2>
+                    <h2 className='text-2xl mb-4 md:text-4xl font-black py-4 px-4 origin-left md:hover:rotate-0 md:duration-300 md:-rotate-3  border bg-blue-300 text-blue-900 rounded-xl'>20% International Level</h2>
                     <Link href={"#form"} className='shadow  w-full md:w-max text-center btn bg-blue-600 text-white hover:text-blue-600 duration-300 '>Connect with us</Link>
                 </div>
-                <Image priority alt='vector-logo' width={500} height={500} src={"/583_c.webp"} className='w-full h-auto'></Image>
+                <Image priority alt='vector-logo' width={500} height={500} src={"/583_c.webp"} className='w-full h-auto mix-blend-multiply'></Image>
 
             </div>
 
@@ -165,7 +166,7 @@ const Page = () => {
                             <Clock />
                         </div>
                         <div>
-                            <h3 className='text-xl font-semibold text-blue-600'>Flexibility:</h3>
+                            <h3 className='text-xl font-semibold text-blue-600'>Time Flexibility:</h3>
                             <p className='text-justify text-xs md:text-[16px] md:leading-[1.2em]'>The flexibility offered by International Schooling caters to varied schedules, fosters personalized learning environments, adjusts to individual learning paces and, accommodates the diverse learning styles of its students.</p>
                         </div>
                     </div>
@@ -210,12 +211,16 @@ const Page = () => {
                 <div>
                     <Image priority width={400} height={400} src={ImagePath.HERO_IMG} alt='hero-image' className='h-auto w-full'></Image>
                     <div className='-mt-7 text-center bg-gradient-to-r from-[#001FCF] to-red-600 py-2 px-4 rounded-xl text-white origin-left  -rotate-6'>
-                        <h2 className='text-4xl font-black '>Ours Champions</h2>
-                        <p>Winning golds and doing perfect in academics</p>
+                        <h2 className='text-2xl font-black '>Ours Champions</h2>
+                        <p>Winning <b>GOLD Medals</b> &  doing perfect in academics</p>
                     </div>
                 </div>
             </div>
-            <div className='w-full py-6 md:pt-24 md:pb-12 mb-4 bg-gradient-to-r from-blue-600 to-blue-800'>
+            <div className='r-w py-6'>
+                <h2 className='mb-4 font-bold md:text-2xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'>OUR STUDENTS HAVE JOINED TOP COLLEGES & UNIVERSITIES ACROSS THE GLOBE</h2>
+                <CollegesMarquee />
+            </div>
+            {/* <div className='w-full py-6 md:pt-24 md:pb-12 mb-4 bg-gradient-to-r from-blue-600 to-blue-800'>
                 <div className='r-w text-center relative flex items-center justify-center flex-col'>
                     <h2 className='mb-4 font-black text-white text-xl md:text-2xl'>MAKE THE RIGHT CHOICE FOR YOUR CHILD & FULFILL THEIR DREAMS</h2>
                     <h2 className='-top-12 opacity-5 font-black text-nowrap overflow-hidden  hidden md:block text-white scale-[2] text-2xl absolute'>MAKE THE RIGHT CHOICE FOR YOUR CHILD & FULFILL THEIR DREAMS</h2>
@@ -223,7 +228,7 @@ const Page = () => {
                     <h2 className='-top-4 opacity-15 font-black text-nowrap overflow-hidden  hidden md:block text-white scale-125 text-2xl absolute'>MAKE THE RIGHT CHOICE FOR YOUR CHILD & FULFILL THEIR DREAMS</h2>
                     <Link className='btn' href={"#form"} >Contact Now</Link>
                 </div>
-            </div>
+            </div> */}
             <div className='r-w py-6'>
                 <h2 className='mb-4 font-bold md:text-3xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'>HEAR FROM OUR HAPPY PARENTS</h2>
                 <div className='grid  md:grid-cols-3 gap-3'>
@@ -241,14 +246,14 @@ const Page = () => {
                     </div>
                 </div>
             </div>
+
             <div className="e-card border playing r-w px-2 md:px-4 flex flex-col !mb-4 justify-center items-center bg-blue-800 ">
                 <div className="wave"></div>
                 <div className="wave"></div>
                 <div className="wave"></div>
-                <h2 className="text-center text-lg mb-2 md:text-3xl font-bold z-50 text-white">
-                    MAKE THE RIGHT CHOICE FOR YOUR CHILD
+                <h2 className="text-center text-sm mb-2 md:text-2xl font-bold z-50 text-white">
+                    MAKE THE RIGHT CHOICE FOR YOUR CHILD & FULFILL THEIR DREAMS
                 </h2>
-
                 <Link href={"#form"} className="btn z-50">
                     Talk to us
                 </Link>
