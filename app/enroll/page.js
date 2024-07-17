@@ -44,7 +44,7 @@ const Page = () => {
         },
     ];
     return (
-        <div className="min-h-screen relative max-w-screen overflow-x-hidden">
+        <div className="relative max-w-screen overflow-x-hidden">
             <div className='w-full z-20 bg-white/50 backdrop-blur sticky top-0 right-0 left-0 shadow'>
                 <header className='r-w  flex items-center justify-between py-2 '>
                     <Image src={ImagePath.LOGO} width={250} height={40} className=' w-[200px] md:w-[250px] h-auto' />
