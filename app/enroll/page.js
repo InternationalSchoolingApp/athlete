@@ -51,7 +51,7 @@ const Page = () => {
                     <Link href={"#form"} className='btn bg-blue-600 text-white hover:text-blue-600 duration-300'>Enroll Now</Link>
                 </header>
             </div>
-            {/* <Image priority alt='globe' className='absolute md:opacity-80 -z-10 animate-spin right-0  w-[300px] h-[300px] md:w-[800px] md:h-[800px] top-0 ' src={"/globe.png"} width={400} height={400} /> */}
+            <Image priority alt='globe' className='absolute md:opacity-80 -z-10 animate-spin right-0  w-[300px] h-[300px] md:w-[800px] md:h-[800px] top-0 ' src={"/globe.png"} width={400} height={400} />
             <div className='z-10 r-w lg:flex lg:items-center gap-5 py-4 md:py-12'>
                 <div className='w-full mb-4 lg:mb-0 relative'>
                     <Image priority alt='shout' className='absolute w-4 md:w-[30px] h-auto contrast-20 saturate-20 grayscale brightness-50 -left-3 md:-left-10 top-[2px] md:-top-2' src={"/shout.png"} width={30} height={30} />
@@ -79,10 +79,10 @@ const Page = () => {
             </div>
             <div className='md:border-y md:backdrop-blur-sm md:mt-8 lg:mt-0'>
                 <div className="r-w grid grid-cols-2 md:grid-cols-5 items-center justify-center gap-4 lg:gap-10 py-2 px-2">
-                    <div className='font-bold text-blue-800 text-3xl md:text-2xl col-span-2 md:col-span-1 text-start'>
-                        <h2>Approved.</h2>
-                        <h2 className='ml-4 md:ml-0'>Accredited.</h2>
-                        <h2 className='ml-8 md:ml-0'>Recognized.</h2>
+                    <div className='md:-rotate-6 md:origin-left mb-2 md:mb-0 font-bold text-blue-800 text-5xl md:text-2xl col-span-2 md:col-span-1 text-end md:text-start'>
+                        <h2 >Approved</h2>
+                        <h2 >Accredited</h2>
+                        <h2 >Recognized</h2>
                     </div>
                     <Image
                         width={500}
@@ -132,13 +132,13 @@ const Page = () => {
 
             <div className='py-2 r-w grid md:grid-cols-3 gap-4 '>
                 <div className='md:col-span-2 '>
-                    <h2 className='mb-6 font-bold text-4xl md:text-5xl bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t inline-block'>Why Choose Us?</h2>
+                    <h2 className='mb-2 md:mb-6 font-bold text-4xl md:text-5xl bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t inline-block'>Why Choose Us?</h2>
                     <div className='  flex flex-col md:flex-row  md:gap-5 py-2 '>
                         <div className='w-[108px]  h-[108px] hidden md:flex items-center justify-center rounded-xl border mb-4 md:mb-0 shadow bg-gray-50 p-4'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" className='w-[90px] h-auto' viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" /><path d="M6 8h2" /><path d="M6 12h2" /><path d="M16 8h2" /><path d="M16 12h2" /></svg>
                         </div>
                         <div>
-                            <h3 className='text-xl font-semibold text-violet-600'>Customized Learning</h3>
+                            <h3 className='text-xl font-semibold text-violet-600'>Customized Learning:</h3>
                             <p className='text-justify text-xs md:text-[16px] md:leading-[1.2em]'>We understand every student has different learning needs and varying schedules. Acknowledging the diverse learning requirements of every student, International Schooling tailors lesson plans and study hours to suit their individual needs.</p>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ const Page = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" className='w-[90px] h-auto' viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" /><path d="M22 10v6" /><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" /></svg>
                         </div>
                         <div>
-                            <h3 className='text-xl font-semibold text-violet-600'>Trained and Certified Teachers</h3>
+                            <h3 className='text-xl font-semibold text-violet-600'>Trained and Certified Teachers:</h3>
                             <p className='text-justify text-xs md:text-[16px] md:leading-[1.2em]'>International Schooling has over 600+ teachers from over 50 counties, speaking 40+ languages who have extensive experience and expertise in their respective fields.</p>
                         </div>
                     </div>
@@ -156,7 +156,7 @@ const Page = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" className='w-[90px] h-auto' viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H2v15h7c1.7 0 3 1.3 3 3V7c0-2.2-1.8-4-4-4Z" /><path d="m16 12 2 2 4-4" /><path d="M22 6V3h-6c-2.2 0-4 1.8-4 4v14c0-1.7 1.3-3 3-3h7v-2.3" /></svg>
                         </div>
                         <div>
-                            <h3 className='text-xl font-semibold text-violet-600'>American Curriculum</h3>
+                            <h3 className='text-xl font-semibold text-violet-600'>American Curriculum:</h3>
                             <p className='text-justify text-xs md:text-[16px] md:leading-[1.2em]'>International Schooling offers American Curriculum from grades KG-12 and awards the prestigious American High School Diploma. Our academic programs are designed to prepare your child for success in college and beyond.</p>
                         </div>
                     </div>
@@ -165,14 +165,14 @@ const Page = () => {
                             <Clock />
                         </div>
                         <div>
-                            <h3 className='text-xl font-semibold text-violet-600'>Flexibility</h3>
+                            <h3 className='text-xl font-semibold text-violet-600'>Flexibility:</h3>
                             <p className='text-justify text-xs md:text-[16px] md:leading-[1.2em]'>The flexibility offered by International Schooling caters to varied schedules, fosters personalized learning environments, adjusts to individual learning paces and, accommodates the diverse learning styles of its students.</p>
                         </div>
                     </div>
                 </div>
                 <div id='form'>
                     <h2 className='font-bold text-3xl text-blue-800 text-center'>Fill this form</h2>
-                    <p className='mb-2 text-center'>To Talk to our expert Academic Counsellor</p>
+                    <p className='mb-2 text-sm text-center'>To Talk to our expert Academic Counsellor</p>
                     <PPCForm />
                 </div>
             </div>
@@ -198,8 +198,8 @@ const Page = () => {
             <div className='r-w grid md:grid-cols-3 mb-8 items-center gap-2 py-6'>
                 <div className='w-full md:col-span-2'>
                     <h2 className='text-blue-600 mb-3 font-bold text-xl md:text-2xl'>The Right School For <span className='text-5xl bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'><br />Future Champions :</span></h2>
-                    <p className='text-justify mb-2 '>International Schooling, accredited by Cognia is a KG-12 American online School. With a diverse community of students from over 135 countries, International Schooling is helping thousands of students achieve their dreams without sacrificing their education.</p>
-                    <ul className='list-disc font-mono space-y-2 mb-4'>
+                    <p className='text-justify mb-2 text-sm '>International Schooling, accredited by Cognia is a KG-12 American online School. With a diverse community of students from over 135 countries, International Schooling is helping thousands of students achieve their dreams without sacrificing their education.</p>
+                    <ul className='list-disc font-mono space-y-2 mb-4 text-sm text-justify'>
                         <li>Over <span className='text-green-600'>3500 athletes from our student community playing</span> at International, National and Province levels.</li>
                         <li>We offer <span className='text-green-600'>free counselling on sports psychology and injury management</span> to our student athletes.</li>
                         <li>We help our student athletes balance their <span className='text-green-600'>academics and training perfectly.</span></li>
@@ -225,8 +225,8 @@ const Page = () => {
                 </div>
             </div>
             <div className='r-w py-6'>
-                <h2 className='text-xl mb-4 font-bold md:text-3xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'>HEAR FROM OUR HAPPY PARENTS</h2>
-                <div className='grid mb-8 text-gray-600 md:grid-cols-3 gap-3'>
+                <h2 className='mb-4 font-bold md:text-3xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'>HEAR FROM OUR HAPPY PARENTS</h2>
+                <div className='grid  md:grid-cols-3 gap-3'>
                     <div className='w-full p-4 hover:shadow-xl duration-300 flex flex-col  border rounded-xl bg-gray-100'>
                         <p className='text-sm mb-2 text-justify flex-1'>This is the first experience with International Schooling, and me and my 2 kids are happy with it. Both kids are 12 and 9 years old and have already experienced the online school model while the covid time. Both are very happy with the curriculum, teachers and the One-To-One teaching method. Thank you International Schooling.</p>
                         <h3 className='font-semibold'>-Riyad Bahloul</h3>
@@ -241,9 +241,17 @@ const Page = () => {
                     </div>
                 </div>
             </div>
-            <div className='py-12 !mb-12 neu r-w px-4 flex flex-col items-center justify-center'>
-                <h3 className='text-center md:text-xl font-bold mb-4'>Crafting brilliance, Igniting potential and Embracing the extraordinary at every step</h3>
-                <Link className='btn mx-auto bg-blue-800 text-white hover:bg-blue-600 w-max justify-self-end' href={"#form"}>Lets connect</Link>
+            <div className="e-card border playing r-w px-2 md:px-4 flex flex-col !mb-4 justify-center items-center bg-blue-800 ">
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <h2 className="text-center text-lg mb-2 md:text-3xl font-bold z-50 text-white">
+                    MAKE THE RIGHT CHOICE FOR YOUR CHILD
+                </h2>
+
+                <Link href={"#form"} className="btn z-50">
+                    Talk to us
+                </Link>
             </div>
             <div className='bg-gray-100 py-4'>
                 <div className='r-w text-xs md:text-sm text-center font-mono'>
