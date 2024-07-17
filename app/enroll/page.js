@@ -54,13 +54,15 @@ const Page = () => {
             </div>
             <Image priority alt='globe' className='absolute md:opacity-80 -z-10 animate-spin right-0  w-[300px] h-[300px] md:w-[800px] md:h-[800px] top-0 ' src={"/globe.png"} width={400} height={400} />
             <div className='z-10 r-w lg:flex lg:items-center gap-5 py-4 md:py-12'>
-                <div className='w-full mb-4 lg:mb-0 relative'>
-                    <h2 className='mb-2 font-bold text-4xl md:text-5xl text-blue-600'>#Top Rated </h2>
-                    <h1 className='text-blue-700 text-3xl md:text-4xl font-semibold'>American Online School</h1>
+                <div className='w-full mb-4 lg:mb-0 '>
+                    <h2 className='mb-2 font-bold text-3xl md:text-5xl text-blue-600'>#Top Rated </h2>
+                    <h1 className='text-blue-700 text-2xl md:text-4xl font-semibold'>American Online School</h1>
                     <h2 className=' font-semibold text-xl md:text-3xl text-blue-600'>for Student Athletes</h2>
-                    <Image priority alt='shout' className='absolute w-4 md:w-[30px] h-auto contrast-20 saturate-20 grayscale brightness-50 -left-3 md:-left-10 top-[2px] md:-top-2' src={"/shout.png"} width={30} height={30} />
-                    <h3 className='pl-2 md:pl-0 text-2xl font-semibold  md:text-3xl text-blue-900  '>Your<FlipWords duration={1000} words={words} /></h3>
-                    <h3 className='text-5xl font-black mb-4 bg-gradient-to-r from-[#001FCF] to-red-600 inline-block text-transparent bg-clip-text g-t'>Upto 20% Discount</h3>
+                    <div className='relative'>
+                        <Image priority alt='shout' className='absolute w-4 md:w-[30px] h-auto contrast-20 saturate-20 grayscale brightness-50 -left-3 md:-left-10 top-[2px] md:-top-2' src={"/shout.png"} width={30} height={30} />
+                        <h3 className='pl-2 md:pl-0 text-xl font-semibold  md:text-3xl text-blue-900  '>Your<FlipWords duration={1000} words={words} /></h3>
+                    </div>
+                    <h3 className='text-5xl leading-[1.18] font-black md:mb-2 bg-gradient-to-r from-[#001FCF] to-red-600 inline-block text-transparent bg-clip-text g-t'>Upto 20% Discount</h3>
                     <p className='mb-2 md:mb-6 text-justify text-sm '>International Schooling, accredited by Cognia, USA and approved by National Collegiate Athletic Association (NCAA) and College Board is the most recommended and trusted online school. We are serving over 3500 student athletes from 135+ countries, playing more than 50 sports.</p>
                     <Link href={"#form"} className='btn bg-blue-600 text-white hover:text-blue-600 duration-300'>Lets Connect</Link>
                 </div>
