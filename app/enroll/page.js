@@ -222,15 +222,6 @@ const Page = () => {
                 <h2 className='mb-4 font-bold md:text-2xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'>OUR STUDENTS HAVE JOINED TOP COLLEGES & UNIVERSITIES ACROSS THE GLOBE</h2>
                 <CollegesMarquee />
             </div>
-            {/* <div className='w-full py-6 md:pt-24 md:pb-12 mb-4 bg-gradient-to-r from-blue-600 to-blue-800'>
-                <div className='r-w text-center relative flex items-center justify-center flex-col'>
-                    <h2 className='mb-4 font-black text-white text-xl md:text-2xl'>MAKE THE RIGHT CHOICE FOR YOUR CHILD & FULFILL THEIR DREAMS</h2>
-                    <h2 className='-top-12 opacity-5 font-black text-nowrap overflow-hidden  hidden md:block text-white scale-[2] text-2xl absolute'>MAKE THE RIGHT CHOICE FOR YOUR CHILD & FULFILL THEIR DREAMS</h2>
-                    <h2 className='-top-8 opacity-10 font-black text-nowrap overflow-hidden  hidden md:block text-white scale-150 text-2xl absolute'>MAKE THE RIGHT CHOICE FOR YOUR CHILD & FULFILL THEIR DREAMS</h2>
-                    <h2 className='-top-4 opacity-15 font-black text-nowrap overflow-hidden  hidden md:block text-white scale-125 text-2xl absolute'>MAKE THE RIGHT CHOICE FOR YOUR CHILD & FULFILL THEIR DREAMS</h2>
-                    <Link className='btn' href={"#form"} >Contact Now</Link>
-                </div>
-            </div> */}
             <div className='r-w py-6'>
                 <h2 className='mb-4 font-bold md:text-3xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'>HEAR FROM OUR HAPPY PARENTS</h2>
                 <div className='grid  md:grid-cols-3 gap-3'>
