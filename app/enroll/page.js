@@ -195,7 +195,7 @@ const Page = () => {
                     </div>
                 ))}
             </div>
-            <div className='r-w grid md:grid-cols-3 mb-8 items-center gap-2 py-6'>
+            <div className='r-w grid md:grid-cols-3 mb-8 items-center gap-2 md:gap-12 py-6'>
                 <div className='w-full md:col-span-2'>
                     <h2 className='text-blue-600 mb-3 font-bold text-xl md:text-2xl'>The Right School For <span className='text-5xl bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'><br />Future Champions :</span></h2>
                     <p className='text-justify mb-2 text-sm '>International Schooling, accredited by Cognia is a KG-12 American online School. With a diverse community of students from over 135 countries, International Schooling is helping thousands of students achieve their dreams without sacrificing their education.</p>
