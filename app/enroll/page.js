@@ -51,7 +51,7 @@ const Page = () => {
                     <Link href={"#form"} className='btn bg-blue-600 text-white hover:text-blue-600 duration-300'>Enroll Now</Link>
                 </header>
             </div>
-            <Image priority alt='globe' className='absolute md:opacity-80 -z-10 animate-spin right-0  w-[300px] h-[300px] md:w-[800px] md:h-[800px] top-0 ' src={"/globe.png"} width={400} height={400} />
+            {/* <Image priority alt='globe' className='absolute md:opacity-80 -z-10 animate-spin right-0  w-[300px] h-[300px] md:w-[800px] md:h-[800px] top-0 ' src={"/globe.png"} width={400} height={400} /> */}
             <div className='z-10 r-w lg:flex lg:items-center gap-5 py-4 md:py-12'>
                 <div className='w-full mb-4 lg:mb-0 relative'>
                     <Image priority alt='shout' className='absolute w-4 md:w-[30px] h-auto contrast-20 saturate-20 grayscale brightness-50 -left-3 md:-left-10 top-[2px] md:-top-2' src={"/shout.png"} width={30} height={30} />
@@ -170,7 +170,7 @@ const Page = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div id='form'>
                     <h2 className='font-bold text-3xl text-blue-800 text-center'>Fill this form</h2>
                     <p className='mb-2 text-center'>To Talk to our expert Academic Counsellor</p>
                     <PPCForm />
@@ -225,7 +225,7 @@ const Page = () => {
                 </div>
             </div>
             <div className='r-w py-6'>
-                <h2 className='text-xl font-bold md:text-3xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'>HEAR FROM OUR HAPPY PARENTS</h2>
+                <h2 className='text-xl mb-4 font-bold md:text-3xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t'>HEAR FROM OUR HAPPY PARENTS</h2>
                 <div className='grid mb-8 text-gray-600 md:grid-cols-3 gap-3'>
                     <div className='w-full p-4 hover:shadow-xl duration-300 flex flex-col  border rounded-xl bg-gray-100'>
                         <p className='text-sm mb-2 text-justify flex-1'>This is the first experience with International Schooling, and me and my 2 kids are happy with it. Both kids are 12 and 9 years old and have already experienced the online school model while the covid time. Both are very happy with the curriculum, teachers and the One-To-One teaching method. Thank you International Schooling.</p>
