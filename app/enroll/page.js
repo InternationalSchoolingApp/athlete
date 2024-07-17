@@ -255,7 +255,7 @@ const Page = () => {
             </div>
             <div className='bg-gray-100 py-4'>
                 <div className='r-w text-xs md:text-sm text-center font-mono'>
-                    <p>Copyright © {new Date().getFullYear()} - International Schooling <span className='hidden md:block'>- All Rights Reserved.</span></p>
+                    <p>Copyright © {new Date().getFullYear()} - International Schooling </p>
                 </div>
             </div>
         </div>
