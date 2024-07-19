@@ -146,7 +146,8 @@ const PPCForm = ({ folderName }) => {
       utmDescription: getCookie("uc"),
       originalUrl: getCookie("cu"),
       gclid: getCookie("gclid"),
-      utmCampaign: getCookie("ucam") === "Test" ? folderName : getCookie("ucam"),
+      utmCampaign:
+        getCookie("ucam") === "Test" ? folderName : getCookie("ucam"),
       utmTerm: getCookie("ut"),
     };
     return data;
@@ -220,7 +221,7 @@ const PPCForm = ({ folderName }) => {
   ];
 
   return (
-    <div className="w-full border bg-gray-50 rounded-xl border-gray-100 shadow px-4 py-6">
+    <div className="w-full border bg-gray-100 rounded-xl border-gray-200 shadow px-4 py-6">
       <form className="grid grid-cols-1 gap-3" onSubmit={handleSubmit}>
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-2">
           <div className="mb-2 md:mb-0 ">

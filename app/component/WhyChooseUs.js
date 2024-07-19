@@ -37,9 +37,9 @@ const content = [
 const WhyChooseUs = () => {
   return (
     <>
-      <div className="flex justify-between items-center flex-col lg:flex-row bg-gradient-to-r from-[#542848] via-[#0D073E] to-[#542848] rounded-3xl lg:p-10 p-0 mt-10 lg:gap-10 gap-5">
+      <div className="flex justify-between items-center flex-col lg:flex-row bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] rounded-3xl lg:p-10 p-5 mt-10 lg:gap-10 gap-5">
         <div className="lg:p-0 p-5">
-          <h3 className="font-extrabold text-2xl lg:text-4xl mb-8 text-white">
+          <h3 className="font-extrabold text-3xl lg:text-5xl mb-8 text-white">
             Why Choose Us?
           </h3>
           <div className="flex flex-col gap-8">
@@ -53,14 +53,14 @@ const WhyChooseUs = () => {
                   className={`mb-1 ${item.width}`}
                 />
                 <p className="font-bold mb-1 text-lg">{item.heading}</p>
-                <p className="text-xs md:text-lg text-justify">{item.para}</p>
+                <p className="text-xs md:text-sm text-justify">{item.para}</p>
               </div>
             ))}
           </div>
         </div>
 
-        <div className="bg-[#272D3D] rounded-2xl lg:p-5 p-2">
-          <div className="text-white text-center mb-5">
+        <div className="bg-white rounded-2xl lg:p-5 p-2">
+          <div className="text-black text-center mb-5">
             <p className="text-lg lg:text-2xl font-bold">FILL THE FORM</p>
             <p className="text-base lg:text-lg font-medium">
               To Talk to our expert Academic Counsellor

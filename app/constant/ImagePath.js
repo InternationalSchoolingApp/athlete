@@ -40,5 +40,12 @@ const ImagePath = {
   FREE_COUNSELING: "/Councelling.svg",
   SUPPORT: "/24_ hours_support.svg",
   STUDENT_ATHLETE: "/Student_Athletes.svg",
+  RATING: "/rating.png",
+  RATING_GOOGLE: "/google.png",
+  RATING_TRUSTPILOT: "/trustpilot.png",
+  CHECK_ICON: "/check.svg",
+  ATHLETE_HERO_IMAGE: "/Athlete_image.png",
+  ADVANCED_LOGO: "/advancED.webp",
+  SCHOLARSHIP_IMAGE: "/Scholarship_Image.png",
 };
 export default ImagePath;
