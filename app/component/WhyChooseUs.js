@@ -26,7 +26,7 @@ const content = [
     width: "w-7",
   },
   {
-    svg: ImagePath.CLASS_ICON,
+    svg: ImagePath.FLEXIBILITY,
     alt: "class-icon",
     heading: "Flexibility:",
     para: "The flexibility offered by International Schooling caters to varied schedules, fosters personalized learning environments, adjusts to individual learning paces and, accommodates the diverse learning styles of its students.",
@@ -37,7 +37,7 @@ const content = [
 const WhyChooseUs = () => {
   return (
     <>
-      <div className="flex justify-between items-center flex-col lg:flex-row bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] rounded-3xl lg:p-10 p-5 mt-10 lg:gap-10 gap-5">
+      <div className="flex justify-between items-center flex-col lg:flex-row bg-gradient-to-r from-[#0D073E] via-[#542848] to-[#0D073E] rounded-3xl lg:p-10 p-2 mt-10 lg:gap-10 gap-5">
         <div className="lg:p-0 p-5">
           <h3 className="font-extrabold text-3xl lg:text-5xl mb-8 text-white">
             Why Choose Us?

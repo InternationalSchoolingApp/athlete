@@ -16,14 +16,16 @@ function NewPage() {
       {/* <Header /> */}
       <div className="w-full z-20 bg-white/50 backdrop-blur sticky top-0 right-0 left-0 shadow">
         <header className="r-w  flex items-center justify-between py-2 ">
-          <Image
-            priority
-            alt="logo"
-            src={ImagePath.LOGO}
-            width={250}
-            height={40}
-            className=" w-[200px] md:w-[250px] h-auto"
-          />
+          <Link href={"/new"}>
+            <Image
+              priority
+              alt="logo"
+              src={ImagePath.LOGO}
+              width={250}
+              height={40}
+              className=" w-[200px] md:w-[300px] h-auto"
+            />
+          </Link>
           <Link
             href={"#form"}
             className="btn bg-blue-600 text-white hover:text-blue-600 duration-300 uppercase rounded-full"
@@ -33,11 +35,11 @@ function NewPage() {
         </header>
       </div>
       <div className="">
-        <div className="r-w py-2 lg:py-4 ">
-          <p className="text-lg lg:text-xl font-semibold text-center mb-2 lg:mb-4">
+        <div className="r-w py-2 md:py-4 ">
+          <p className="text-lg md:text-xl font-semibold text-center mb-2 md:mb-4">
             #Top Rated
           </p>
-          <div className="flex lg:flex-row flex-col justify-center items-center gap-1 lg:gap-10">
+          <div className="flex md:flex-row flex-col justify-center items-center gap-1 md:gap-10">
             <Image
               width={250}
               height={40}
@@ -56,15 +58,15 @@ function NewPage() {
         </div>
         <div className="r-w md:flex items-center gap-10 ">
           <div className="text-center md:text-left">
-            <p className="bg-[#2949FF] text-white px-4 py-1 text-xs md:text-lg rounded-md mb-4 w-max mx-auto lg:mx-0">
+            <p className="bg-[#2949FF] text-white px-4 py-1 text-xs md:text-lg rounded-md mb-4 w-max mx-auto md:mx-0">
               YOUR SCHOOL | YOUR LOCATION | YOUR TIME
             </p>
-            <h1 className="text-3xl lg:text-5xl font-black font-Passion-One mb-4">
+            <h1 className="text-2xl lg:text-4xl font-black font-Passion-One mb-4">
               <span className="text-[#2949FF]">American Online School</span>
               <br />
               For Student Athletes
             </h1>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-1 lg:gap-4 w-max mx-auto lg:mx-0 mb-5">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-4 w-max mx-auto md:mx-0 mb-5">
               <div className="flex gap-1">
                 <Image
                   src={ImagePath.CHECK_ICON}
@@ -108,11 +110,11 @@ function NewPage() {
           </div>
         </div>
         <div className="r-w items-center bg-yellow-400 rounded-2xl p-5  text-center ">
-          <h2 className="lg:text-5xl text-3xl">
+          <h2 className="lg:text-5xl text-2xl">
             ATHLETE DISCOUNT <span className="font-bold">UPTO 20%</span>
           </h2>
         </div>
-        <div className="r-w lg:flex items-center gap-10 py-12 justify-items-center">
+        <div className="r-w flex items-center justify-center flex-col lg:flex-row lg:gap-10 py-12 ">
           <VideoElement
             image={ImagePath.ABOUT_IMG}
             url={
@@ -120,7 +122,7 @@ function NewPage() {
             }
           />
 
-          <div className="lg:mt-20 text-center">
+          <div className="text-center">
             <p className="text-justify mb-6">
               International Schooling, accredited by Cognia, USA and approved by
               National Collegiate Athletic Association (NCAA) and College Board
@@ -218,22 +220,25 @@ function NewPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10">
             <VideoElementNew
-              image={ImagePath.ABOUT_IMG}
+              image={ImagePath.BASKETBALL_PLAYER}
               url={
-                "https://www.youtube.com/embed/EMvEtLBud8A?si=eoRDBiWxd4Err3wE&autoplay=1"
+                "https://www.youtube.com/embed/hroZgoC0LSc?si=5upqhuXAZDwuY5N-"
               }
+              playButton={"!w-[60px] !h-[60px]"}
             />
             <VideoElementNew
-              image={ImagePath.ABOUT_IMG}
+              image={ImagePath.HORSE_JUMPER}
               url={
-                "https://www.youtube.com/embed/EMvEtLBud8A?si=eoRDBiWxd4Err3wE&autoplay=1"
+                "https://www.youtube.com/embed/J-l8mV4_7hY?si=yaIseQIRbBN9pggX"
               }
+              playButton={"!w-[60px] !h-[60px]"}
             />
             <VideoElementNew
-              image={ImagePath.ABOUT_IMG}
+              image={ImagePath.BASKETBALL_NEXT_PLAYER}
               url={
-                "https://www.youtube.com/embed/EMvEtLBud8A?si=eoRDBiWxd4Err3wE&autoplay=1"
+                "https://www.youtube.com/embed/OZUhU_VBs8E?si=c0vp28UabD2BE52d"
               }
+              playButton={"!w-[60px] !h-[60px]"}
             />
           </div>
         </div>

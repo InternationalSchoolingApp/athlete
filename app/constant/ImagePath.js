@@ -47,5 +47,9 @@ const ImagePath = {
   ATHLETE_HERO_IMAGE: "/Athlete_image.png",
   ADVANCED_LOGO: "/advancED.webp",
   SCHOLARSHIP_IMAGE: "/Scholarship_Image.png",
+  BASKETBALL_PLAYER: "/Basketball_Player.webp",
+  HORSE_JUMPER: "/Horse_Jumper .jpg",
+  BASKETBALL_NEXT_PLAYER: "/next_Basketball.webp",
+  FLEXIBILITY: "/Flexibility_icon.svg",
 };
 export default ImagePath;

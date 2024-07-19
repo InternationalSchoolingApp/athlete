@@ -62,7 +62,7 @@ const SportsStars = () => {
           url={"https://enroll.internationalschooling.org/demo/"}
           target={"_blank"}
           referrerPolicy={"no-referrer"}
-          buttonClass={"w-full lg:w-1/2"}
+          buttonClass={"w-full lg:w-1/3"}
         />
       </div>
     </>
