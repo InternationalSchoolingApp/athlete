@@ -51,5 +51,6 @@ const ImagePath = {
   HORSE_JUMPER: "/Horse_Jumper .jpg",
   BASKETBALL_NEXT_PLAYER: "/next_Basketball.webp",
   FLEXIBILITY: "/Flexibility_icon.svg",
+  UNIVERSITY_SCHOLARSHIP: "/University_Scholarship.svg",
 };
 export default ImagePath;
