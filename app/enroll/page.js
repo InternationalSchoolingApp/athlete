@@ -449,7 +449,51 @@ const Page = () => {
         <h2 className="mb-4 font-bold md:text-2xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t">
           OUR STUDENTS HAVE JOINED TOP COLLEGES & UNIVERSITIES ACROSS THE GLOBE
         </h2>
-        <CollegesMarquee />
+        {/* <CollegesMarquee /> */}
+        {/* For Desktop */}
+        <Image
+          src={ImagePath.UNIVERSITY_LOGO_2}
+          width={1200}
+          height={200}
+          alt="image"
+          className="mx-auto h-auto hidden md:block mb-3"
+        />
+        <Image
+          src={ImagePath.UNIVERSITY_LOGO_1}
+          width={1200}
+          height={200}
+          alt="image"
+          className="mx-auto h-auto hidden md:block"
+        />
+        {/* For Mobile */}
+        <Image
+          src={ImagePath.MOBILE_UNIVERSITY_LOGO_1}
+          width={600}
+          height={200}
+          alt="image"
+          className="mx-auto h-auto md:hidden sm:block mb-2"
+        />
+        <Image
+          src={ImagePath.MOBILE_UNIVERSITY_LOGO_2}
+          width={600}
+          height={200}
+          alt="image"
+          className="mx-auto h-auto md:hidden sm:block mb-2"
+        />
+        <Image
+          src={ImagePath.MOBILE_UNIVERSITY_LOGO_3}
+          width={600}
+          height={200}
+          alt="image"
+          className="mx-auto h-auto md:hidden sm:block mb-2"
+        />
+        <Image
+          src={ImagePath.MOBILE_UNIVERSITY_LOGO_4}
+          width={600}
+          height={200}
+          alt="image"
+          className="mx-auto h-auto md:hidden sm:block"
+        />
       </div>
       <div className="r-w py-6">
         <h2 className="mb-4 font-bold md:text-3xl text-center bg-gradient-to-r from-[#001FCF] to-red-600 text-transparent bg-clip-text g-t">

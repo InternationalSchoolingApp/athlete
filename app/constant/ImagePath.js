@@ -52,5 +52,11 @@ const ImagePath = {
   BASKETBALL_NEXT_PLAYER: "/next_Basketball.webp",
   FLEXIBILITY: "/Flexibility_icon.svg",
   UNIVERSITY_SCHOLARSHIP: "/University_Scholarship.svg",
+  UNIVERSITY_LOGO_1: "/01.png",
+  UNIVERSITY_LOGO_2: "/02.png",
+  MOBILE_UNIVERSITY_LOGO_1: "/mobile_01.png",
+  MOBILE_UNIVERSITY_LOGO_2: "/mobile_02.png",
+  MOBILE_UNIVERSITY_LOGO_3: "/mobile_03.png",
+  MOBILE_UNIVERSITY_LOGO_4: "/mobile_04.png",
 };
 export default ImagePath;

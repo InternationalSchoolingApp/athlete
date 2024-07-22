@@ -198,10 +198,10 @@ function NewPage() {
         <div className="r-w !mb-10 items-center mx-auto h-auto">
           <WhyChooseUs />
         </div>
-        <div className="r-w !mb-10">
+        <div className="r-w !mb-5 !md:mb-10">
           <RightSchoolNew />
         </div>
-        <div className="r-w py-6">
+        <div className="r-w py-6 !mb-5 !md:mb-10">
           <h2
             className="mb-4 font-bold md:text-2xl text-center text-black
              "
@@ -209,7 +209,51 @@ function NewPage() {
             OUR STUDENTS HAVE JOINED TOP COLLEGES & UNIVERSITIES ACROSS THE
             GLOBE
           </h2>
-          <CollegesMarquee />
+          {/* <CollegesMarquee /> */}
+          {/* For Desktop */}
+          <Image
+            src={ImagePath.UNIVERSITY_LOGO_2}
+            width={1200}
+            height={200}
+            alt="image"
+            className="mx-auto h-auto hidden md:block mb-3"
+          />
+          <Image
+            src={ImagePath.UNIVERSITY_LOGO_1}
+            width={1200}
+            height={200}
+            alt="image"
+            className="mx-auto h-auto hidden md:block"
+          />
+          {/* For Mobile */}
+          <Image
+            src={ImagePath.MOBILE_UNIVERSITY_LOGO_1}
+            width={600}
+            height={200}
+            alt="image"
+            className="mx-auto h-auto md:hidden sm:block mb-2"
+          />
+          <Image
+            src={ImagePath.MOBILE_UNIVERSITY_LOGO_2}
+            width={600}
+            height={200}
+            alt="image"
+            className="mx-auto h-auto md:hidden sm:block mb-2"
+          />
+          <Image
+            src={ImagePath.MOBILE_UNIVERSITY_LOGO_3}
+            width={600}
+            height={200}
+            alt="image"
+            className="mx-auto h-auto md:hidden sm:block mb-2"
+          />
+          <Image
+            src={ImagePath.MOBILE_UNIVERSITY_LOGO_4}
+            width={600}
+            height={200}
+            alt="image"
+            className="mx-auto h-auto md:hidden sm:block"
+          />
         </div>
         <div className="r-w !mb-10">
           <SportsStarsNew />
